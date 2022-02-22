@@ -53,6 +53,7 @@
                         android:textColor="@color/green_text"
                         android:text="@string/about_authors"/>
 
+
                 </LinearLayout>
 
             </LinearLayout>
