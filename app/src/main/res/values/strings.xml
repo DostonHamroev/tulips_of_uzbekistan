@@ -5,4 +5,25 @@
     <string name="home">Home</string>
     <string name="version_1_0">version 1.0</string>
     <string name="app_name_long">Tulips of Uzbekistan</string>
+
+
+    <string name="app_about_full">Tulipa Linnaeus
+Sp. Pl. 1: 305 (1753).
+Type: Tulipa gesneriana L. (Sp. Pl. 1: 306. 1753).
+Perennial herbs, bulbiferous; bulbs truncate basally, sometimes elongate and tapering apically, covered with a tunics, sometimes forming stolons; tunics papery or coriaceous, hairy or glabrous inside, sometimes with the hairs protruding from the tip of the bulb; stem glabrous or pubescent, simple or sometimes branched in a few-flowered terminal panicle, proximal part usually underground; leaves all basal or spreading along the stem, linear to ovate, sheathing at base, entire and often undulate ar margins, sometimes curled, acute to acuminate at apex, green or glaucous, sometimes with anthocyan markings; flowers usually solitary, sometimes 2–8(11); flowers bisexual, actinomorphic, star-shaped, campanulate or cup-shaped, upright or pendulous in bud; perianth segments 6 (in two whorls), often bright colored, free, ovate to elliptic, obtuse or acuminate at apex, sometimes with a hairy tip; the outer and inner tepals more or less different in shape, sometimes the outer ones recurved and inner ones upright (or in some species incurved), or all spreading; stamens 6, equal or 3 longer; filaments variable in shape, thin to broadly flattened or club-shaped, glabrous or hairy; anthers variable in shape and colour, opening gradually from apex to base, twisted in some taxa; ovary 3-loculed, superior, consisting of three connate carpels; ovules many per locule; style columnar or very short; stigma 3-lobed (in some species funnel-shaped); fruit a loculicidal capsule; seeds flat, usually subdeltoid.
+Key for sections of the genus
+Filaments glabrous, all almost equal in the length. Flowers usually cup-shaped with rounded base, predominantly red and yellow in colour …………………………………..………………………………………………………...2
+Filaments with hairs at the base and/or hairy along their length. Flowers campanulate or star-shaped, predominantly white and whitish-yellow
+………………………………………5. sect. Biflores A.D.Hall ex Zonn. &amp; Veldk.
+2.    Anthers opening gradually and slowly (during 2–3 days) from apex to base and becoming twisted; bulb tunics more or less hairy on the inside
+……………………………………4. sect. Spiranthera Vved. ex Zonn. &amp; Veldk.
+–    Anthers opening rapidly, not becoming twisted…………………………………3
+3.    Leaves narrow, glaucous. Bulb tunics strongly extended, sometimes up to to soil surface...…2. sect. Kolpakowskianae Raamsd. ex Zonn.&amp; Veldk.
+–    Leaves usually broad. Bulb tunics not extended or only slightly extended ………………………………………………………………………...…………………...4
+4.    Leaves with anthocyan markings. Bulb tunics inside lined with hairs at the tip and often at the base. Inner perianth segments longer then outer.…………………………..…….……3. sect. Vinistriatae (Raamsd.) Zonn.
+–    Leaves usually without anthocyan markings. Bulb tunics usually profusely hairy over the entire inner surface. Perianth segments equal in the length
+……………………………………………………1. sect. Lanatae (Raamsd.) Zonn.
+</string>
+    <string name="app_about_short">This application has been created within the framework of the state research project “Taxonomic revision of polymorphic plant families of the flora of Uzbekistan” (FZ-20200929321) and the State Programs for 2021-2025 years “Grid mapping of the flora of Uzbekistan” of the Institute of Botany of the Academy of Sciences of the Republic of Uzbekistan</string>
+    <string name="about_authors">Tulips of \nUzbekistan\'s \nApp\nAuthors</string>
 </resources>

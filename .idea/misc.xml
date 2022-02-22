@@ -4,8 +4,13 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/drawable/back_bottom.xml" value="0.1215" />
+        <entry key="app/src/main/res/drawable/back_card_ripple.xml" value="0.1215" />
+        <entry key="app/src/main/res/drawable/back_gallary_item_ripple.xml" value="0.1215" />
         <entry key="app/src/main/res/drawable/ic_certificat.xml" value="0.1215" />
         <entry key="app/src/main/res/drawable/ic_exit.xml" value="0.1215" />
+        <entry key="app/src/main/res/drawable/ic_gallery.xml" value="0.1215" />
+        <entry key="app/src/main/res/drawable/ic_gallery_green.xml" value="0.1215" />
+        <entry key="app/src/main/res/drawable/ic_gallery_grey.xml" value="0.1215" />
         <entry key="app/src/main/res/drawable/ic_home.xml" value="0.1215" />
         <entry key="app/src/main/res/drawable/ic_home_green.xml" value="0.1215" />
         <entry key="app/src/main/res/drawable/ic_home_grey.xml" value="0.1215" />
@@ -24,12 +29,20 @@
         <entry key="app/src/main/res/drawable/ic_users_grey.xml" value="0.1215" />
         <entry key="app/src/main/res/layout/activity_home.xml" value="0.1561840439003799" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.19270833333333334" />
+        <entry key="app/src/main/res/layout/activity_tulips.xml" value="0.1712962962962963" />
         <entry key="app/src/main/res/layout/fragment_app_about.xml" value="0.15818725951261223" />
+        <entry key="app/src/main/res/layout/fragment_certificate.xml" value="0.1453612654980761" />
+        <entry key="app/src/main/res/layout/fragment_gallery.xml" value="0.15818725951261223" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.19270833333333334" />
         <entry key="app/src/main/res/layout/fragment_like.xml" value="0.15818725951261223" />
+        <entry key="app/src/main/res/layout/fragment_sections_menu.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_users.xml" value="0.15818725951261223" />
         <entry key="app/src/main/res/layout/header_main.xml" value="0.19270833333333334" />
+        <entry key="app/src/main/res/layout/item_gallery.xml" value="0.18" />
+        <entry key="app/src/main/res/layout/item_home_menu.xml" value="0.2" />
         <entry key="app/src/main/res/layout/item_nav_menu.xml" value="0.2" />
+        <entry key="app/src/main/res/layout/item_section_menu.xml" value="0.1689497716894977" />
+        <entry key="app/src/main/res/layout/item_users.xml" value="0.18" />
       </map>
     </option>
   </component>

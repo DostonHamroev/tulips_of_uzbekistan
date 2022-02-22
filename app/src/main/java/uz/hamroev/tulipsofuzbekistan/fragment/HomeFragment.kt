@@ -1,13 +1,16 @@
 package uz.hamroev.tulipsofuzbekistan.fragment
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.navigation.Navigation
+import androidx.fragment.app.Fragment
+import androidx.navigation.fragment.findNavController
 import uz.hamroev.tulipsofuzbekistan.R
+import uz.hamroev.tulipsofuzbekistan.adapter.HomeMenuAdapter
+import uz.hamroev.tulipsofuzbekistan.cache.Cache
 import uz.hamroev.tulipsofuzbekistan.databinding.FragmentHomeBinding
+import uz.hamroev.tulipsofuzbekistan.model.HomeMenu
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -33,16 +36,65 @@ class HomeFragment : Fragment() {
     }
 
     lateinit var binding: FragmentHomeBinding
+    lateinit var list: ArrayList<HomeMenu>
+    lateinit var homeMenuAdapter: HomeMenuAdapter
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        binding  = FragmentHomeBinding.inflate(layoutInflater, container, false)
+        binding = FragmentHomeBinding.inflate(layoutInflater, container, false)
 
-
+        Cache.init(binding.root.context)
+        startAnimation()
+        loadData()
+        homeMenuAdapter = HomeMenuAdapter(
+            binding.root.context,
+            list,
+            object : HomeMenuAdapter.OnHomeClickListener {
+                override fun onClickMenu(homeMenu: HomeMenu, position: Int) {
+                    when (position) {
+                        0 -> {
+                            findNavController().navigate(R.id.sectionsMenuFragment)
+                            Cache.sectionPosition = "0"
+                        }
+                        1 -> {
+                            findNavController().navigate(R.id.sectionsMenuFragment)
+                            Cache.sectionPosition = "1"
+                        }
+                        2 -> {
+                            findNavController().navigate(R.id.sectionsMenuFragment)
+                            Cache.sectionPosition = "2"
+                        }
+                        3 -> {
+                            findNavController().navigate(R.id.sectionsMenuFragment)
+                            Cache.sectionPosition = "3"
+                        }
+                        4 -> {
+                            findNavController().navigate(R.id.sectionsMenuFragment)
+                            Cache.sectionPosition = "4"
+                        }
+                    }
+                }
+            })
+        binding.rvHomeMenu.adapter = homeMenuAdapter
 
 
         return binding.root
+    }
+
+    private fun startAnimation() {
+        binding.mainAppNameTv.animateText("Tulips of\nUzbekistan")
+        binding.mainAppNameTv.setCharacterDeley(50)
+    }
+
+    private fun loadData() {
+        list = ArrayList()
+        list.add(HomeMenu("Lanatae", R.drawable.ic_1lanatae))
+        list.add(HomeMenu("Kolpakowskianae", R.drawable.ic_2kolpakowskiana))
+        list.add(HomeMenu("Vinistriatae", R.drawable.ic_3vinistriatae))
+        list.add(HomeMenu("Spiranthera", R.drawable.ic_4spiranthera))
+        list.add(HomeMenu("Biflores", R.drawable.ic_5biflores))
     }
 
 

@@ -29,6 +29,21 @@ object Cache {
             }
         }
 
+    var tulipsPosition: String?
+        get() = sharedPreferences.getString("tulipsposition", "0")
+        set(value) = sharedPreferences.edit() {
+            if (value != null) {
+                it.putString("tulipsposition", value)
+            }
+        }
+
+    var sectionPosition: String?
+        get() = sharedPreferences.getString("sectionPosition", "0")
+        set(value) = sharedPreferences.edit() {
+            if (value != null) {
+                it.putString("sectionPosition", value)
+            }
+        }
 
     var path: String?
         get() = sharedPreferences.getString("path", "")

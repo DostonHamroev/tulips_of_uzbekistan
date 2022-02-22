@@ -26,8 +26,6 @@ class NavMenuAdapter(
 
             itemNavMenuBinding.root.setOnClickListener {
                 onMyNavMenuClickListener.onClick(navMenu, position)
-                itemNavMenuBinding.navTitle.applyClickShrink()
-                itemNavMenuBinding.navIcon.applyClickShrink()
             }
         }
 

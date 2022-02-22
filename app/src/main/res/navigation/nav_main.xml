@@ -19,6 +19,15 @@
         <action
             android:id="@+id/action_homeFragment_to_usersFragment"
             app:destination="@id/usersFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_certificateFragment"
+            app:destination="@id/certificateFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_galleryFragment"
+            app:destination="@id/galleryFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_sectionsMenuFragment"
+            app:destination="@id/sectionsMenuFragment" />
     </fragment>
     <fragment
         android:id="@+id/appAboutFragment"
@@ -35,4 +44,19 @@
         android:name="uz.hamroev.tulipsofuzbekistan.fragment.UsersFragment"
         android:label="fragment_users"
         tools:layout="@layout/fragment_users" />
+    <fragment
+        android:id="@+id/certificateFragment"
+        android:name="uz.hamroev.tulipsofuzbekistan.fragment.CertificateFragment"
+        android:label="fragment_certificate"
+        tools:layout="@layout/fragment_certificate" />
+    <fragment
+        android:id="@+id/galleryFragment"
+        android:name="uz.hamroev.tulipsofuzbekistan.fragment.GalleryFragment"
+        android:label="fragment_gallery"
+        tools:layout="@layout/fragment_gallery" />
+    <fragment
+        android:id="@+id/sectionsMenuFragment"
+        android:name="uz.hamroev.tulipsofuzbekistan.fragment.SectionsMenuFragment"
+        android:label="fragment_sections_menu"
+        tools:layout="@layout/fragment_sections_menu" />
 </navigation>
