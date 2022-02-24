@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_tulips"
+    app:startDestination="@id/tulipsFragment">
+
+    <fragment
+        android:id="@+id/tulipsFragment"
+        android:name="uz.hamroev.tulipsofuzbekistan.fragment.tulipsFragment.TulipsFragment"
+        android:label="fragment_tulips"
+        tools:layout="@layout/fragment_tulips" >
+        <action
+            android:id="@+id/action_tulipsFragment_to_imageAndMapFragment"
+            app:destination="@id/imageAndMapFragment" />
+        <action
+            android:id="@+id/action_tulipsFragment_to_tulipsInfoFragment"
+            app:destination="@id/tulipsInfoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/tulipsInfoFragment"
+        android:name="uz.hamroev.tulipsofuzbekistan.fragment.tulipsFragment.TulipsInfoFragment"
+        android:label="fragment_tulips_info"
+        tools:layout="@layout/fragment_tulips_info" />
+    <fragment
+        android:id="@+id/imageAndMapFragment"
+        android:name="uz.hamroev.tulipsofuzbekistan.fragment.tulipsFragment.ImageAndMapFragment"
+        android:label="fragment_image_and_map"
+        tools:layout="@layout/fragment_image_and_map" />
+</navigation>
