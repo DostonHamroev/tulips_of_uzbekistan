@@ -16,6 +16,9 @@
         <action
             android:id="@+id/action_tulipsFragment_to_tulipsInfoFragment"
             app:destination="@id/tulipsInfoFragment" />
+        <action
+            android:id="@+id/action_tulipsFragment_to_mapImageFragment"
+            app:destination="@id/mapImageFragment" />
     </fragment>
     <fragment
         android:id="@+id/tulipsInfoFragment"
@@ -27,4 +30,9 @@
         android:name="uz.hamroev.tulipsofuzbekistan.fragment.tulipsFragment.ImageAndMapFragment"
         android:label="fragment_image_and_map"
         tools:layout="@layout/fragment_image_and_map" />
+    <fragment
+        android:id="@+id/mapImageFragment"
+        android:name="uz.hamroev.tulipsofuzbekistan.fragment.tulipsFragment.MapImageFragment"
+        android:label="fragment_map_image"
+        tools:layout="@layout/fragment_map_image" />
 </navigation>

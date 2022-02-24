@@ -17,6 +17,7 @@
         <entry key="app/src/main/res/drawable/ic_home.xml" value="0.1215" />
         <entry key="app/src/main/res/drawable/ic_home_green.xml" value="0.1215" />
         <entry key="app/src/main/res/drawable/ic_home_grey.xml" value="0.1215" />
+        <entry key="app/src/main/res/drawable/ic_image_not_download.xml" value="0.1215" />
         <entry key="app/src/main/res/drawable/ic_info.xml" value="0.1215" />
         <entry key="app/src/main/res/drawable/ic_info_green.xml" value="0.1215" />
         <entry key="app/src/main/res/drawable/ic_info_grey.xml" value="0.1215" />
@@ -24,6 +25,7 @@
         <entry key="app/src/main/res/drawable/ic_like_green.xml" value="0.1215" />
         <entry key="app/src/main/res/drawable/ic_like_grey.xml" value="0.1215" />
         <entry key="app/src/main/res/drawable/ic_like_line.xml" value="0.1215" />
+        <entry key="app/src/main/res/drawable/ic_like_red.xml" value="0.1215" />
         <entry key="app/src/main/res/drawable/ic_menu.xml" value="0.1215" />
         <entry key="app/src/main/res/drawable/ic_rate.xml" value="0.1215" />
         <entry key="app/src/main/res/drawable/ic_share.xml" value="0.1215" />
@@ -39,9 +41,10 @@
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.19270833333333334" />
         <entry key="app/src/main/res/layout/fragment_image_and_map.xml" value="0.1581196581196581" />
         <entry key="app/src/main/res/layout/fragment_like.xml" value="0.15818725951261223" />
+        <entry key="app/src/main/res/layout/fragment_map_image.xml" value="0.1581196581196581" />
         <entry key="app/src/main/res/layout/fragment_sections_menu.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/fragment_tulips.xml" value="0.2" />
-        <entry key="app/src/main/res/layout/fragment_tulips_info.xml" value="0.1581196581196581" />
+        <entry key="app/src/main/res/layout/fragment_tulips.xml" value="0.14444444444444443" />
+        <entry key="app/src/main/res/layout/fragment_tulips_info.xml" value="0.15611814345991562" />
         <entry key="app/src/main/res/layout/fragment_users.xml" value="0.15818725951261223" />
         <entry key="app/src/main/res/layout/header_main.xml" value="0.19270833333333334" />
         <entry key="app/src/main/res/layout/item_gallery.xml" value="0.18" />

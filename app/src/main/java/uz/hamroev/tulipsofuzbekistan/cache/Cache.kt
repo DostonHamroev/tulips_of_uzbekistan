@@ -37,6 +37,22 @@ object Cache {
             }
         }
 
+    var tulipsName: String?
+        get() = sharedPreferences.getString("tulipsname", "0")
+        set(value) = sharedPreferences.edit() {
+            if (value != null) {
+                it.putString("tulipsname", value)
+            }
+        }
+
+    var mapImage: String?
+        get() = sharedPreferences.getString("mapimage", "0")
+        set(value) = sharedPreferences.edit() {
+            if (value != null) {
+                it.putString("mapimage", value)
+            }
+        }
+
     var sectionPosition: String?
         get() = sharedPreferences.getString("sectionPosition", "0")
         set(value) = sharedPreferences.edit() {
