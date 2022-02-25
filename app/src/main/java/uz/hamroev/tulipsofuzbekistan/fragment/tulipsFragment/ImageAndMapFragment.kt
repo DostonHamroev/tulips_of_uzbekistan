@@ -49,6 +49,7 @@ class ImageAndMapFragment : Fragment() {
         imageViewPager2Adapter = ImageViewPager2Adapter(binding.root.context, listImage)
         binding.viewPager2.adapter = imageViewPager2Adapter
 
+        binding.imageSizeTv.text = listImage.size.toString()
         binding.viewPager2.registerOnPageChangeCallback(object :
             ViewPager2.OnPageChangeCallback() {
             override fun onPageScrollStateChanged(state: Int) {
@@ -64,11 +65,13 @@ class ImageAndMapFragment : Fragment() {
             }
 
             override fun onPageSelected(position: Int) {
-
-                Toast.makeText(binding.root.context, "${position}", Toast.LENGTH_SHORT).show()
+                var positionLive = position+1
+                binding.imagePositionTv.text = positionLive.toString()
                 super.onPageSelected(position)
             }
             })
+
+
 
 
         return binding.root

@@ -55,7 +55,7 @@ class TulipsFragment : Fragment() {
         Cache.init(binding.root.context)
 
         checkCacheData()
-
+        isLike()
         Glide.with(binding.root.context)
             .load(map_image_url)
             .centerCrop()
@@ -100,9 +100,11 @@ class TulipsFragment : Fragment() {
 
         binding.cardGalleryTop.setOnClickListener {
             if (!isClick) {
+                unLiked()
                 binding.likeImage.setImageResource(R.drawable.ic_like_line)
                 isClick = true
             } else {
+                liked()
                 binding.likeImage.setImageResource(R.drawable.ic_like_red)
                 isClick = false
             }
@@ -114,6 +116,654 @@ class TulipsFragment : Fragment() {
 
 
         return binding.root
+    }
+
+    private fun isLike() {
+
+        when (Cache.tulipsPosition) {
+            "1" -> {
+                when (Cache.like1) {
+                    "1" -> {
+                        binding.likeImage.setImageResource(R.drawable.ic_like_red)
+                        isClick = false
+                    }
+                    "0" -> {
+                        binding.likeImage.setImageResource(R.drawable.ic_like_line)
+                        isClick = true
+                    }
+                }
+            }
+            "2" -> {
+                when (Cache.like2) {
+                    "1" -> {
+                        binding.likeImage.setImageResource(R.drawable.ic_like_red)
+                        isClick = false
+                    }
+                    "0" -> {
+                        binding.likeImage.setImageResource(R.drawable.ic_like_line)
+                        isClick = true
+                    }
+                }
+            }
+            "3" -> {
+                when (Cache.like3) {
+                    "1" -> {
+                        binding.likeImage.setImageResource(R.drawable.ic_like_red)
+                        isClick = false
+                    }
+                    "0" -> {
+                        binding.likeImage.setImageResource(R.drawable.ic_like_line)
+                        isClick = true
+                    }
+                }
+            }
+            "4" -> {
+                when (Cache.like4) {
+                    "1" -> {
+                        binding.likeImage.setImageResource(R.drawable.ic_like_red)
+                        isClick = false
+                    }
+                    "0" -> {
+                        binding.likeImage.setImageResource(R.drawable.ic_like_line)
+                        isClick = true
+                    }
+                }
+            }
+            "5" -> {
+                when (Cache.like5) {
+                    "1" -> {
+                        binding.likeImage.setImageResource(R.drawable.ic_like_red)
+                        isClick = false
+                    }
+                    "0" -> {
+                        binding.likeImage.setImageResource(R.drawable.ic_like_line)
+                        isClick = true
+                    }
+                }
+            }
+            "6" -> {
+                when (Cache.like6) {
+                    "1" -> {
+                        binding.likeImage.setImageResource(R.drawable.ic_like_red)
+                        isClick = false
+                    }
+                    "0" -> {
+                        binding.likeImage.setImageResource(R.drawable.ic_like_line)
+                        isClick = true
+                    }
+                }
+            }
+            "7" -> {
+                when (Cache.like7) {
+                    "1" -> {
+                        binding.likeImage.setImageResource(R.drawable.ic_like_red)
+                        isClick = false
+                    }
+                    "0" -> {
+                        binding.likeImage.setImageResource(R.drawable.ic_like_line)
+                        isClick = true
+                    }
+                }
+            }
+            "8" -> {
+                when (Cache.like8) {
+                    "1" -> {
+                        binding.likeImage.setImageResource(R.drawable.ic_like_red)
+                        isClick = false
+                    }
+                    "0" -> {
+                        binding.likeImage.setImageResource(R.drawable.ic_like_line)
+                        isClick = true
+                    }
+                }
+            }
+            "9" -> {
+                when (Cache.like9) {
+                    "1" -> {
+                        binding.likeImage.setImageResource(R.drawable.ic_like_red)
+                        isClick = false
+                    }
+                    "0" -> {
+                        binding.likeImage.setImageResource(R.drawable.ic_like_line)
+                        isClick = true
+                    }
+                }
+            }
+            "10" -> {
+                when (Cache.like10) {
+                    "1" -> {
+                        binding.likeImage.setImageResource(R.drawable.ic_like_red)
+                        isClick = false
+                    }
+                    "0" -> {
+                        binding.likeImage.setImageResource(R.drawable.ic_like_line)
+                        isClick = true
+                    }
+                }
+            }
+            "11" -> {
+                when (Cache.like11) {
+                    "1" -> {
+                        binding.likeImage.setImageResource(R.drawable.ic_like_red)
+                        isClick = false
+                    }
+                    "0" -> {
+                        binding.likeImage.setImageResource(R.drawable.ic_like_line)
+                        isClick = true
+                    }
+                }
+            }
+            "12" -> {
+                when (Cache.like12) {
+                    "1" -> {
+                        binding.likeImage.setImageResource(R.drawable.ic_like_red)
+                        isClick = false
+                    }
+                    "0" -> {
+                        binding.likeImage.setImageResource(R.drawable.ic_like_line)
+                        isClick = true
+                    }
+                }
+            }
+            "13" -> {
+                when (Cache.like13) {
+                    "1" -> {
+                        binding.likeImage.setImageResource(R.drawable.ic_like_red)
+                        isClick = false
+                    }
+                    "0" -> {
+                        binding.likeImage.setImageResource(R.drawable.ic_like_line)
+                        isClick = true
+                    }
+                }
+            }
+            "14" -> {
+                when (Cache.like14) {
+                    "1" -> {
+                        binding.likeImage.setImageResource(R.drawable.ic_like_red)
+                        isClick = false
+                    }
+                    "0" -> {
+                        binding.likeImage.setImageResource(R.drawable.ic_like_line)
+                        isClick = true
+                    }
+                }
+            }
+            "15" -> {
+                when (Cache.like15) {
+                    "1" -> {
+                        binding.likeImage.setImageResource(R.drawable.ic_like_red)
+                        isClick = false
+                    }
+                    "0" -> {
+                        binding.likeImage.setImageResource(R.drawable.ic_like_line)
+                        isClick = true
+                    }
+                }
+            }
+            "16" -> {
+                when (Cache.like16) {
+                    "1" -> {
+                        binding.likeImage.setImageResource(R.drawable.ic_like_red)
+                        isClick = false
+                    }
+                    "0" -> {
+                        binding.likeImage.setImageResource(R.drawable.ic_like_line)
+                        isClick = true
+                    }
+                }
+            }
+            "17" -> {
+                when (Cache.like17) {
+                    "1" -> {
+                        binding.likeImage.setImageResource(R.drawable.ic_like_red)
+                        isClick = false
+                    }
+                    "0" -> {
+                        binding.likeImage.setImageResource(R.drawable.ic_like_line)
+                        isClick = true
+                    }
+                }
+            }
+            "18" -> {
+                when (Cache.like18) {
+                    "1" -> {
+                        binding.likeImage.setImageResource(R.drawable.ic_like_red)
+                        isClick = false
+                    }
+                    "0" -> {
+                        binding.likeImage.setImageResource(R.drawable.ic_like_line)
+                        isClick = true
+                    }
+                }
+            }
+            "19" -> {
+                when (Cache.like19) {
+                    "1" -> {
+                        binding.likeImage.setImageResource(R.drawable.ic_like_red)
+                        isClick = false
+                    }
+                    "0" -> {
+                        binding.likeImage.setImageResource(R.drawable.ic_like_line)
+                        isClick = true
+                    }
+                }
+            }
+            "20" -> {
+                when (Cache.like20) {
+                    "1" -> {
+                        binding.likeImage.setImageResource(R.drawable.ic_like_red)
+                        isClick = false
+                    }
+                    "0" -> {
+                        binding.likeImage.setImageResource(R.drawable.ic_like_line)
+                        isClick = true
+                    }
+                }
+            }
+            "21" -> {
+                when (Cache.like21) {
+                    "1" -> {
+                        binding.likeImage.setImageResource(R.drawable.ic_like_red)
+                        isClick = false
+                    }
+                    "0" -> {
+                        binding.likeImage.setImageResource(R.drawable.ic_like_line)
+                        isClick = true
+                    }
+                }
+            }
+            "22" -> {
+                when (Cache.like22) {
+                    "1" -> {
+                        binding.likeImage.setImageResource(R.drawable.ic_like_red)
+                        isClick = false
+                    }
+                    "0" -> {
+                        binding.likeImage.setImageResource(R.drawable.ic_like_line)
+                        isClick = true
+                    }
+                }
+            }
+            "23" -> {
+                when (Cache.like23) {
+                    "1" -> {
+                        binding.likeImage.setImageResource(R.drawable.ic_like_red)
+                        isClick = false
+                    }
+                    "0" -> {
+                        binding.likeImage.setImageResource(R.drawable.ic_like_line)
+                        isClick = true
+                    }
+                }
+            }
+            "24" -> {
+                when (Cache.like24) {
+                    "1" -> {
+                        binding.likeImage.setImageResource(R.drawable.ic_like_red)
+                        isClick = false
+                    }
+                    "0" -> {
+                        binding.likeImage.setImageResource(R.drawable.ic_like_line)
+                        isClick = true
+                    }
+                }
+            }
+            "25" -> {
+                when (Cache.like25) {
+                    "1" -> {
+                        binding.likeImage.setImageResource(R.drawable.ic_like_red)
+                        isClick = false
+                    }
+                    "0" -> {
+                        binding.likeImage.setImageResource(R.drawable.ic_like_line)
+                        isClick = true
+                    }
+                }
+            }
+            "26" -> {
+                when (Cache.like26) {
+                    "1" -> {
+                        binding.likeImage.setImageResource(R.drawable.ic_like_red)
+                        isClick = false
+                    }
+                    "0" -> {
+                        binding.likeImage.setImageResource(R.drawable.ic_like_line)
+                        isClick = true
+                    }
+                }
+            }
+            "27" -> {
+                when (Cache.like27) {
+                    "1" -> {
+                        binding.likeImage.setImageResource(R.drawable.ic_like_red)
+                        isClick = false
+                    }
+                    "0" -> {
+                        binding.likeImage.setImageResource(R.drawable.ic_like_line)
+                        isClick = true
+                    }
+                }
+            }
+            "28" -> {
+                when (Cache.like28) {
+                    "1" -> {
+                        binding.likeImage.setImageResource(R.drawable.ic_like_red)
+                        isClick = false
+                    }
+                    "0" -> {
+                        binding.likeImage.setImageResource(R.drawable.ic_like_line)
+                        isClick = true
+                    }
+                }
+            }
+            "29" -> {
+                when (Cache.like29) {
+                    "1" -> {
+                        binding.likeImage.setImageResource(R.drawable.ic_like_red)
+                        isClick = false
+                    }
+                    "0" -> {
+                        binding.likeImage.setImageResource(R.drawable.ic_like_line)
+                        isClick = true
+                    }
+                }
+            }
+            "30" -> {
+                when (Cache.like30) {
+                    "1" -> {
+                        binding.likeImage.setImageResource(R.drawable.ic_like_red)
+                        isClick = false
+                    }
+                    "0" -> {
+                        binding.likeImage.setImageResource(R.drawable.ic_like_line)
+                        isClick = true
+                    }
+                }
+            }
+            "31" -> {
+                when (Cache.like31) {
+                    "1" -> {
+                        binding.likeImage.setImageResource(R.drawable.ic_like_red)
+                        isClick = false
+                    }
+                    "0" -> {
+                        binding.likeImage.setImageResource(R.drawable.ic_like_line)
+                        isClick = true
+                    }
+                }
+            }
+            "32" -> {
+                when (Cache.like32) {
+                    "1" -> {
+                        binding.likeImage.setImageResource(R.drawable.ic_like_red)
+                        isClick = false
+                    }
+                    "0" -> {
+                        binding.likeImage.setImageResource(R.drawable.ic_like_line)
+                        isClick = true
+                    }
+                }
+            }
+            "33" -> {
+                when (Cache.like33) {
+                    "1" -> {
+                        binding.likeImage.setImageResource(R.drawable.ic_like_red)
+                        isClick = false
+                    }
+                    "0" -> {
+                        binding.likeImage.setImageResource(R.drawable.ic_like_line)
+                        isClick = true
+                    }
+                }
+            }
+            "34" -> {
+                when (Cache.like34) {
+                    "1" -> {
+                        binding.likeImage.setImageResource(R.drawable.ic_like_red)
+                        isClick = false
+                    }
+                    "0" -> {
+                        binding.likeImage.setImageResource(R.drawable.ic_like_line)
+                        isClick = true
+                    }
+                }
+            }
+            "35" -> {
+                when (Cache.like35) {
+                    "1" -> {
+                        binding.likeImage.setImageResource(R.drawable.ic_like_red)
+                        isClick = false
+                    }
+                    "0" -> {
+                        binding.likeImage.setImageResource(R.drawable.ic_like_line)
+                        isClick = true
+                    }
+                }
+            }
+        }
+    }
+
+
+    private fun unLiked() {
+
+        when (Cache.tulipsPosition) {
+            "1" -> {
+                Cache.like1 = "0"
+            }
+            "2" -> {
+                Cache.like2 = "0"
+            }
+            "3" -> {
+                Cache.like3 = "0"
+            }
+            "4" -> {
+                Cache.like4 = "0"
+            }
+            "5" -> {
+                Cache.like5 = "0"
+            }
+            "6" -> {
+                Cache.like6 = "0"
+            }
+            "7" -> {
+                Cache.like7 = "0"
+            }
+            "8" -> {
+                Cache.like8 = "0"
+            }
+            "9" -> {
+                Cache.like9 = "0"
+            }
+            "10" -> {
+                Cache.like10 = "0"
+            }
+            "11" -> {
+                Cache.like11 = "0"
+            }
+            "12" -> {
+                Cache.like12 = "0"
+            }
+            "13" -> {
+                Cache.like13 = "0"
+            }
+            "14" -> {
+                Cache.like14 = "0"
+            }
+            "15" -> {
+                Cache.like15 = "0"
+            }
+            "16" -> {
+                Cache.like16 = "0"
+            }
+            "17" -> {
+                Cache.like17 = "0"
+            }
+            "18" -> {
+                Cache.like18 = "0"
+            }
+            "19" -> {
+                Cache.like19 = "0"
+            }
+            "20" -> {
+                Cache.like20 = "0"
+            }
+            "21" -> {
+                Cache.like21 = "0"
+            }
+            "22" -> {
+                Cache.like22 = "0"
+            }
+            "23" -> {
+                Cache.like23 = "0"
+            }
+            "24" -> {
+                Cache.like24 = "0"
+            }
+            "25" -> {
+                Cache.like25 = "0"
+            }
+            "26" -> {
+                Cache.like26 = "0"
+            }
+            "27" -> {
+                Cache.like27 = "0"
+            }
+            "28" -> {
+                Cache.like28 = "0"
+            }
+            "29" -> {
+                Cache.like29 = "0"
+            }
+            "30" -> {
+                Cache.like30 = "0"
+            }
+            "31" -> {
+                Cache.like31 = "0"
+            }
+            "32" -> {
+                Cache.like32 = "0"
+            }
+            "33" -> {
+                Cache.like33 = "0"
+            }
+            "34" -> {
+                Cache.like34 = "0"
+            }
+            "35" -> {
+                Cache.like35 = "0"
+            }
+        }
+    }
+
+    private fun liked() {
+        when (Cache.tulipsPosition) {
+            "1" -> {
+                Cache.like1 = "1"
+            }
+            "2" -> {
+                Cache.like2 = "1"
+            }
+            "3" -> {
+                Cache.like3 = "1"
+            }
+            "4" -> {
+                Cache.like4 = "1"
+            }
+            "5" -> {
+                Cache.like5 = "1"
+            }
+            "6" -> {
+                Cache.like6 = "1"
+            }
+            "7" -> {
+                Cache.like7 = "1"
+            }
+            "8" -> {
+                Cache.like8 = "1"
+            }
+            "9" -> {
+                Cache.like9 = "1"
+            }
+            "10" -> {
+                Cache.like10 = "1"
+            }
+            "11" -> {
+                Cache.like11 = "1"
+            }
+            "12" -> {
+                Cache.like12 = "1"
+            }
+            "13" -> {
+                Cache.like13 = "1"
+            }
+            "14" -> {
+                Cache.like14 = "1"
+            }
+            "15" -> {
+                Cache.like15 = "1"
+            }
+            "16" -> {
+                Cache.like16 = "1"
+            }
+            "17" -> {
+                Cache.like17 = "1"
+            }
+            "18" -> {
+                Cache.like18 = "1"
+            }
+            "19" -> {
+                Cache.like19 = "1"
+            }
+            "20" -> {
+                Cache.like20 = "1"
+            }
+            "21" -> {
+                Cache.like21 = "1"
+            }
+            "22" -> {
+                Cache.like22 = "1"
+            }
+            "23" -> {
+                Cache.like23 = "1"
+            }
+            "24" -> {
+                Cache.like24 = "1"
+            }
+            "25" -> {
+                Cache.like25 = "1"
+            }
+            "26" -> {
+                Cache.like26 = "1"
+            }
+            "27" -> {
+                Cache.like27 = "1"
+            }
+            "28" -> {
+                Cache.like28 = "1"
+            }
+            "29" -> {
+                Cache.like29 = "1"
+            }
+            "30" -> {
+                Cache.like30 = "1"
+            }
+            "31" -> {
+                Cache.like31 = "1"
+            }
+            "32" -> {
+                Cache.like32 = "1"
+            }
+            "33" -> {
+                Cache.like33 = "1"
+            }
+            "34" -> {
+                Cache.like34 = "1"
+            }
+            "35" -> {
+                Cache.like35 = "1"
+            }
+        }
     }
 
     private fun checkCacheData() {

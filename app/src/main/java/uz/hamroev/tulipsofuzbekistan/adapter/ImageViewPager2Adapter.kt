@@ -23,6 +23,7 @@ class ImageViewPager2Adapter(var context: Context, var list: ArrayList<ImageView
                 .diskCacheStrategy(DiskCacheStrategy.AUTOMATIC)
                 .into(itemImageViewPager2Binding.photoView)
 
+
         }
 
     }

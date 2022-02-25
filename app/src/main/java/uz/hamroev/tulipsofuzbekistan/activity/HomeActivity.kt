@@ -21,6 +21,7 @@ class HomeActivity : AppCompatActivity() {
     lateinit var binding: ActivityHomeBinding
     lateinit var navMenuAdapter: NavMenuAdapter
     lateinit var listNav: ArrayList<NavMenu>
+    var isHome = 1
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -149,6 +150,7 @@ class HomeActivity : AppCompatActivity() {
         }
 
         binding.cardGalleryTop.setOnClickListener {
+            isHome = 0
             binding.bottomHomeImage.setImageResource(R.drawable.ic_home_grey)
             binding.bottomGalleryImage.setImageResource(R.drawable.ic_gallery_green)
             binding.bottomLikeImage.setImageResource(R.drawable.ic_like_grey)
@@ -158,6 +160,7 @@ class HomeActivity : AppCompatActivity() {
         }
 
         binding.bottomHome.setOnClickListener {
+            isHome = 1
             binding.bottomHome.applyClickShrink()
             binding.bottomHomeImage.setImageResource(R.drawable.ic_home_green)
             binding.bottomGalleryImage.setImageResource(R.drawable.ic_gallery_grey)
@@ -169,6 +172,7 @@ class HomeActivity : AppCompatActivity() {
         }
 
         binding.bottomGallery.setOnClickListener {
+            isHome = 0
             binding.bottomLike.applyClickShrink()
             binding.bottomHomeImage.setImageResource(R.drawable.ic_home_grey)
             binding.bottomGalleryImage.setImageResource(R.drawable.ic_gallery_green)
@@ -180,6 +184,7 @@ class HomeActivity : AppCompatActivity() {
         }
 
         binding.bottomLike.setOnClickListener {
+            isHome = 0
             binding.bottomLike.applyClickShrink()
             binding.bottomHomeImage.setImageResource(R.drawable.ic_home_grey)
             binding.bottomGalleryImage.setImageResource(R.drawable.ic_gallery_grey)
@@ -191,6 +196,7 @@ class HomeActivity : AppCompatActivity() {
         }
 
         binding.bottomInfo.setOnClickListener {
+            isHome = 0
             binding.bottomInfo.applyClickShrink()
             binding.bottomHomeImage.setImageResource(R.drawable.ic_home_grey)
             binding.bottomGalleryImage.setImageResource(R.drawable.ic_gallery_grey)
@@ -201,6 +207,7 @@ class HomeActivity : AppCompatActivity() {
             binding.drawerLayout.closeDrawers()
         }
         binding.bottomUsers.setOnClickListener {
+            isHome = 0
             binding.bottomUsers.applyClickShrink()
             binding.bottomHomeImage.setImageResource(R.drawable.ic_home_grey)
             binding.bottomGalleryImage.setImageResource(R.drawable.ic_gallery_grey)
