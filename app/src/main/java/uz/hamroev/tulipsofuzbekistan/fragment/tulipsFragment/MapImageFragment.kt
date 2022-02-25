@@ -1,5 +1,6 @@
 package uz.hamroev.tulipsofuzbekistan.fragment.tulipsFragment
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -7,6 +8,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.engine.DiskCacheStrategy
+import uz.hamroev.tulipsofuzbekistan.activity.TulipsActivity
 import uz.hamroev.tulipsofuzbekistan.cache.Cache
 import uz.hamroev.tulipsofuzbekistan.databinding.FragmentMapImageBinding
 
@@ -44,6 +46,7 @@ class MapImageFragment : Fragment() {
 
         Glide.with(binding.root.context)
             .load(img)
+            .onlyRetrieveFromCache(true)
             .diskCacheStrategy(DiskCacheStrategy.AUTOMATIC)
             .into(binding.image)
 

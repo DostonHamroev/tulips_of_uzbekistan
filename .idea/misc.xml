@@ -32,7 +32,7 @@
         <entry key="app/src/main/res/drawable/ic_users.xml" value="0.1215" />
         <entry key="app/src/main/res/drawable/ic_users_green.xml" value="0.1215" />
         <entry key="app/src/main/res/drawable/ic_users_grey.xml" value="0.1215" />
-        <entry key="app/src/main/res/layout/activity_home.xml" value="0.1561840439003799" />
+        <entry key="app/src/main/res/layout/activity_home.xml" value="0.16" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.19270833333333334" />
         <entry key="app/src/main/res/layout/activity_tulips.xml" value="0.16" />
         <entry key="app/src/main/res/layout/fragment_app_about.xml" value="0.15818725951261223" />
@@ -49,6 +49,7 @@
         <entry key="app/src/main/res/layout/header_main.xml" value="0.19270833333333334" />
         <entry key="app/src/main/res/layout/item_gallery.xml" value="0.18" />
         <entry key="app/src/main/res/layout/item_home_menu.xml" value="0.2" />
+        <entry key="app/src/main/res/layout/item_image_view_pager2.xml" value="0.1581196581196581" />
         <entry key="app/src/main/res/layout/item_nav_menu.xml" value="0.2" />
         <entry key="app/src/main/res/layout/item_section_menu.xml" value="0.1689497716894977" />
         <entry key="app/src/main/res/layout/item_tulips_image.xml" value="0.1581196581196581" />
