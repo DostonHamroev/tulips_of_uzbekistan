@@ -20,11 +20,12 @@ class UsersAdapter(var context: Context, var list: ArrayList<Users>) :
             itemUsersBinding.userInfo.text = users.user_info
             users.user_image?.let { itemUsersBinding.userImage.setImageResource(it) }
 
-            Glide.with(context)
-                .load(users.user_image_url)
-                .centerCrop()
-                .diskCacheStrategy(DiskCacheStrategy.AUTOMATIC)
-                .into(itemUsersBinding.userImage)
+//            Glide.with(context)
+//                .load(users.user_image_url)
+//                .centerCrop()
+//                .diskCacheStrategy(DiskCacheStrategy.AUTOMATIC)
+//                .into(itemUsersBinding.userImage)
+
         }
 
     }

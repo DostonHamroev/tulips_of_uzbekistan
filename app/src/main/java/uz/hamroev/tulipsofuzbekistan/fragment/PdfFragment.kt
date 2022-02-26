@@ -5,8 +5,8 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import uz.hamroev.tulipsofuzbekistan.databinding.FragmentAppAboutBinding
-import uz.hamroev.tulipsofuzbekistan.info.InfoTulips
+import uz.hamroev.tulipsofuzbekistan.cache.Cache
+import uz.hamroev.tulipsofuzbekistan.databinding.FragmentPdfBinding
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -15,10 +15,10 @@ private const val ARG_PARAM2 = "param2"
 
 /**
  * A simple [Fragment] subclass.
- * Use the [AppAboutFragment.newInstance] factory method to
+ * Use the [PdfFragment.newInstance] factory method to
  * create an instance of this fragment.
  */
-class AppAboutFragment : Fragment() {
+class PdfFragment : Fragment() {
     // TODO: Rename and change types of parameters
     private var param1: String? = null
     private var param2: String? = null
@@ -31,20 +31,36 @@ class AppAboutFragment : Fragment() {
         }
     }
 
-    lateinit var binding: FragmentAppAboutBinding
+    lateinit var binding: FragmentPdfBinding
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
+        binding = FragmentPdfBinding.inflate(layoutInflater, container, false)
 
-        binding = FragmentAppAboutBinding.inflate(layoutInflater, container, false)
-
-        binding.introDesc.text = InfoTulips.intro_desc
-
-       binding.pdfView.fromAsset("main.pdf").show()
+        loadPdf()
 
         return binding.root
+    }
 
+    private fun loadPdf() {
+        when (Cache.pdfPosition) {
+            "1" -> {
+                binding.pdfView.fromAsset("section1.pdf").show()
+            }
+            "2" -> {
+                binding.pdfView.fromAsset("section2.pdf").show()
+            }
+            "3" -> {
+                binding.pdfView.fromAsset("section3.pdf").show()
+            }
+            "4" -> {
+                binding.pdfView.fromAsset("section4.pdf").show()
+            }
+            "5" -> {
+                binding.pdfView.fromAsset("section5.pdf").show()
+            }
+        }
     }
 
     companion object {
@@ -54,12 +70,12 @@ class AppAboutFragment : Fragment() {
          *
          * @param param1 Parameter 1.
          * @param param2 Parameter 2.
-         * @return A new instance of fragment AppAboutFragment.
+         * @return A new instance of fragment PdfFragment.
          */
         // TODO: Rename and change types and number of parameters
         @JvmStatic
         fun newInstance(param1: String, param2: String) =
-            AppAboutFragment().apply {
+            PdfFragment().apply {
                 arguments = Bundle().apply {
                     putString(ARG_PARAM1, param1)
                     putString(ARG_PARAM2, param2)

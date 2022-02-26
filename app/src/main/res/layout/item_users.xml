@@ -45,16 +45,14 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent">
 
-                                <ProgressBar
-                                    android:layout_gravity="center"
-                                    android:layout_width="25dp"
-                                    android:layout_height="25dp"/>
+
 
                                 <ImageView
                                     android:id="@+id/user_image"
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
-                                    android:scaleType="centerCrop" />
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/ic_dilmurod"/>
 
                             </FrameLayout>
 

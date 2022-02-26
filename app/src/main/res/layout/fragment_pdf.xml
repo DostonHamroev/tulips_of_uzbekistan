@@ -1,51 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
-    tools:context=".fragment.tulipsFragment.TulipsInfoFragment">
-
+    tools:context=".fragment.PdfFragment">
 
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
         <LinearLayout
+            android:orientation="vertical"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
+            android:layout_height="match_parent">
+
 
             <androidx.cardview.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
                 android:layout_margin="10dp"
                 app:cardCornerRadius="10dp"
-                app:cardElevation="5dp">
+                app:cardElevation="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical">
+                    android:layout_height="match_parent">
 
-                    <TextView
-                        android:id="@+id/tulips_info"
+                    <com.pdfview.PDFView
+                        android:id="@+id/pdf_view"
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:fontFamily="@font/roboto_regular"
-                        android:padding="12dp"
-                        android:textColor="@color/black"
-                        android:textSize="14sp"
-                        android:textStyle="normal" />
+                        android:layout_height="match_parent"/>
 
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
-
         </LinearLayout>
 
     </androidx.core.widget.NestedScrollView>
+
 
 
 </LinearLayout>

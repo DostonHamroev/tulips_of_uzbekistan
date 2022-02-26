@@ -8,7 +8,6 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDelegate
 import androidx.core.view.GravityCompat
 import androidx.navigation.Navigation
-import com.permissionx.guolindev.PermissionX
 import com.realpacific.clickshrinkeffect.applyClickShrink
 import uz.hamroev.tulipsofuzbekistan.R
 import uz.hamroev.tulipsofuzbekistan.adapter.NavMenuAdapter
@@ -31,22 +30,6 @@ class HomeActivity : AppCompatActivity() {
 
         Cache.init(this)
         supportActionBar?.hide()
-
-        PermissionX.init(this)
-            .permissions(
-                android.Manifest.permission.INTERNET,
-                android.Manifest.permission.READ_EXTERNAL_STORAGE,
-                android.Manifest.permission.WRITE_EXTERNAL_STORAGE
-            )
-            .onExplainRequestReason { scope, deniedList ->
-                scope.showRequestReasonDialog(deniedList, "", "OK", "Cancel")
-            }
-            .request { allGranted, grantedList, deniedList ->
-                if (allGranted) {
-                } else {
-                    //Toast.makeText(binding.root.context, "These permissions are denied: $deniedList", Toast.LENGTH_LONG).show()
-                }
-            }
 
 
         val navController = Navigation.findNavController(this, R.id.my_nav_host_fragment)

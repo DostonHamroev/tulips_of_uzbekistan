@@ -1,11 +1,14 @@
 package uz.hamroev.tulipsofuzbekistan.fragment.tulipsFragment
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
+import android.text.Spanned
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import uz.hamroev.tulipsofuzbekistan.R
+import androidx.fragment.app.Fragment
+import uz.hamroev.tulipsofuzbekistan.cache.Cache
+import uz.hamroev.tulipsofuzbekistan.databinding.FragmentTulipsInfoBinding
+import uz.hamroev.tulipsofuzbekistan.info.InfoTulips
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -30,13 +33,129 @@ class TulipsInfoFragment : Fragment() {
         }
     }
 
+    lateinit var binding: FragmentTulipsInfoBinding
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_tulips_info, container, false)
+    ): View {
+        binding = FragmentTulipsInfoBinding.inflate(layoutInflater, container, false)
+
+        loadInfo()
+
+        return binding.root
     }
+
+    private fun loadInfo() {
+        when (Cache.tulipsPosition) {
+            "1" -> {
+                binding.tulipsInfo.text = InfoTulips.tulips1Info
+            }
+            "2" -> {
+                binding.tulipsInfo.text = InfoTulips.tulips2Info
+            }
+            "3" -> {
+                binding.tulipsInfo.text = InfoTulips.tulips3Info
+            }
+            "4" -> {
+                binding.tulipsInfo.text = InfoTulips.tulips4Info
+            }
+            "5" -> {
+                binding.tulipsInfo.text = InfoTulips.tulips5Info
+            }
+            "6" -> {
+                binding.tulipsInfo.text = InfoTulips.tulips6Info
+            }
+            "7" -> {
+                binding.tulipsInfo.text = InfoTulips.tulips7Info
+            }
+            "8" -> {
+                binding.tulipsInfo.text = InfoTulips.tulips8Info
+            }
+            "9" -> {
+                binding.tulipsInfo.text = InfoTulips.tulips9Info
+            }
+            "10" -> {
+                binding.tulipsInfo.text = InfoTulips.tulips10Info
+            }
+            "11" -> {
+                binding.tulipsInfo.text = InfoTulips.tulips11Info
+            }
+            "12" -> {
+                binding.tulipsInfo.text = InfoTulips.tulips12Info
+            }
+            "13" -> {
+                binding.tulipsInfo.text = InfoTulips.tulips13Info
+            }
+            "14" -> {
+                binding.tulipsInfo.text = InfoTulips.tulips14Info
+            }
+            "15" -> {
+                binding.tulipsInfo.text = InfoTulips.tulips15Info
+            }
+            "16" -> {
+                binding.tulipsInfo.text = InfoTulips.tulips16Info
+            }
+            "17" -> {
+                binding.tulipsInfo.text = InfoTulips.tulips17Info
+            }
+            "18" -> {
+                binding.tulipsInfo.text = InfoTulips.tulips18Info
+            }
+            "19" -> {
+                binding.tulipsInfo.text = InfoTulips.tulips19Info
+            }
+            "20" -> {
+                binding.tulipsInfo.text = InfoTulips.tulips20Info
+            }
+            "21" -> {
+                binding.tulipsInfo.text = InfoTulips.tulips21Info
+            }
+            "22" -> {
+                binding.tulipsInfo.text = InfoTulips.tulips22Info
+            }
+            "23" -> {
+                binding.tulipsInfo.text = InfoTulips.tulips23Info
+            }
+            "24" -> {
+                binding.tulipsInfo.text = InfoTulips.tulips24Info
+            }
+            "25" -> {
+                binding.tulipsInfo.text = InfoTulips.tulips25Info
+            }
+            "26" -> {
+                binding.tulipsInfo.text = InfoTulips.tulips26Info
+            }
+            "27" -> {
+                binding.tulipsInfo.text = InfoTulips.tulips27Info
+            }
+            "28" -> {
+                binding.tulipsInfo.text = InfoTulips.tulips28Info
+            }
+            "29" -> {
+                binding.tulipsInfo.text = InfoTulips.tulips29Info
+            }
+            "30" -> {
+                binding.tulipsInfo.text = InfoTulips.tulips30Info
+            }
+            "31" -> {
+                binding.tulipsInfo.text = InfoTulips.tulips31Info
+            }
+            "32" -> {
+                binding.tulipsInfo.text = InfoTulips.tulips32Info
+            }
+            "33" -> {
+                binding.tulipsInfo.text = InfoTulips.tulips33Info
+            }
+            "34" -> {
+                binding.tulipsInfo.text = InfoTulips.tulips34Info
+            }
+            "35" -> {
+                binding.tulipsInfo.text = InfoTulips.tulips35Info
+            }
+        }
+    }
+
 
     companion object {
         /**

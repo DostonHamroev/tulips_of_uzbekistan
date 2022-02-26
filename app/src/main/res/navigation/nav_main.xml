@@ -58,5 +58,14 @@
         android:id="@+id/sectionsMenuFragment"
         android:name="uz.hamroev.tulipsofuzbekistan.fragment.SectionsMenuFragment"
         android:label="fragment_sections_menu"
-        tools:layout="@layout/fragment_sections_menu" />
+        tools:layout="@layout/fragment_sections_menu" >
+        <action
+            android:id="@+id/action_sectionsMenuFragment_to_pdfFragment"
+            app:destination="@id/pdfFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/pdfFragment"
+        android:name="uz.hamroev.tulipsofuzbekistan.fragment.PdfFragment"
+        android:label="fragment_pdf"
+        tools:layout="@layout/fragment_pdf" />
 </navigation>

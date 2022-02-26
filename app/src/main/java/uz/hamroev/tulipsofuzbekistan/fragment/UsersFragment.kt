@@ -5,6 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import uz.hamroev.tulipsofuzbekistan.R
 import uz.hamroev.tulipsofuzbekistan.adapter.UsersAdapter
 import uz.hamroev.tulipsofuzbekistan.databinding.FragmentUsersBinding
 import uz.hamroev.tulipsofuzbekistan.model.Users
@@ -39,7 +40,7 @@ class UsersFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         binding = FragmentUsersBinding.inflate(layoutInflater, container, false)
 
         loadUsers()
@@ -52,9 +53,9 @@ class UsersFragment : Fragment() {
 
     private fun loadUsers() {
         list = ArrayList()
-        list.add(Users("","",""))
-        list.add(Users("","",""))
-        list.add(Users("","",""))
+        list.add(Users("Tojibaev \nKomiljon \nSharobitdinovich","Head of the laboratory \"Flora of Uzbekistan\" of the Institute of Botany of the Academy of Sciences of the Republic of Uzbekistan.",R.drawable.ic_tojibaev))
+        list.add(Users("Makhmudjanov Dilmurod \nIbrokhim ugli","Junior researcher of the laboratory \"Flora of Uzbekistan\" of the Institute of Botany of the Academy of Sciences of the Republic of Uzbekistan.",R.drawable.ic_dilmurod))
+        // list.add(Users("Beknazarova Saida \nSafibullayevna","professor of Tashkent university of information technologies, doctor of technical science",R.drawable.ic_saida))
     }
 
     companion object {

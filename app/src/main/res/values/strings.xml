@@ -27,4 +27,5 @@ Filaments with hairs at the base and/or hairy along their length. Flowers campan
     <string name="app_about_short">This application has been created within the framework of the state research project “Taxonomic revision of polymorphic plant families of the flora of Uzbekistan” (FZ-20200929321) and the State Programs for 2021-2025 years “Grid mapping of the flora of Uzbekistan” of the Institute of Botany of the Academy of Sciences of the Republic of Uzbekistan</string>
     <string name="about_authors">Tulips of \nUzbekistan\'s \nApp\nAuthors</string>
     <string name="of">of</string>
+    <string name="no_like">No like</string>
 </resources>

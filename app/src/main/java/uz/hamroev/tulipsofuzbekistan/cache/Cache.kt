@@ -69,6 +69,14 @@ object Cache {
             }
         }
 
+    var pdfPosition: String?
+        get() = sharedPreferences.getString("pdfposition", "0")
+        set(value) = sharedPreferences.edit() {
+            if (value != null) {
+                it.putString("pdfposition", value)
+            }
+        }
+
 
 
     /* tulips for like */
