@@ -524,7 +524,7 @@ class SectionsMenuFragment : Fragment() {
                 "https://drive.google.com/u/0/uc?id=1JydhF2P-qyzW_OOxFDp8xMLPey86jhLP&export=download"
             )
         )
-        list.add(SectionMenu("Lanatae Info", ""))
+        list.add(SectionMenu("Lanatae Info", "https://drive.google.com/u/0/uc?id=1Qda4MhoEvoy375vl7uiyeaAk0KrRDTEQ&export=download"))
     }
 
     private fun load1Section() {
@@ -597,7 +597,7 @@ class SectionsMenuFragment : Fragment() {
                 "https://drive.google.com/u/0/uc?id=16C5sbzds6sgrPFoji1HOsswOBxfgWURG&export=download"
             )
         )
-        list.add(SectionMenu("Kolpakowskianae Info", ""))
+        list.add(SectionMenu("Kolpakowskianae Info", "https://drive.google.com/u/0/uc?id=1Qda4MhoEvoy375vl7uiyeaAk0KrRDTEQ&export=download"))
     }
 
     private fun load2Section() {
@@ -634,7 +634,7 @@ class SectionsMenuFragment : Fragment() {
                 "https://drive.google.com/u/0/uc?id=1fkFusYKLQzyfHU-yQoEtjIx9yEp0QgtH&export=download"
             )
         )
-        list.add(SectionMenu("Vinistriatae Info", ""))
+        list.add(SectionMenu("Vinistriatae Info", "https://drive.google.com/u/0/uc?id=1Qda4MhoEvoy375vl7uiyeaAk0KrRDTEQ&export=download"))
     }
 
     private fun load3Section() {
@@ -644,13 +644,13 @@ class SectionsMenuFragment : Fragment() {
         list.add(
             SectionMenu(
                 "Tulipa kaufmanniana Regel",
-                "https://drive.google.com/u/0/uc?id=17bLWWSPUUdpoMJJJ_JGGDmAgw9RpCL7R&export=download"
+                "https://drive.google.com/u/0/uc?id=11bzV3UP8uTvvyQ35B9Wc7sjPbkMb1hz7&export=download"
             )
         )
         list.add(
             SectionMenu(
                 "Tulipa tschimganica Botschantz",
-                "https://drive.google.com/u/0/uc?id=11bzV3UP8uTvvyQ35B9Wc7sjPbkMb1hz7&export=download"
+                "https://drive.google.com/u/0/uc?id=17bLWWSPUUdpoMJJJ_JGGDmAgw9RpCL7R&export=download"
             )
         )
         list.add(
@@ -665,7 +665,8 @@ class SectionsMenuFragment : Fragment() {
                 "https://drive.google.com/u/0/uc?id=1Yp5RN6oGTv6KnNxMHNoW8S5d2IkhT64n&export=download"
             )
         )
-        list.add(SectionMenu("Spiranthera Info", ""))
+        list.add(SectionMenu("Spiranthera Info", "https://drive.google.com/u/0/uc?id=1Qda4MhoEvoy375vl7uiyeaAk0KrRDTEQ&export=download"))
+
     }
 
     private fun load4Section() {
@@ -720,7 +721,7 @@ class SectionsMenuFragment : Fragment() {
                 "https://drive.google.com/u/0/uc?id=1hQ0IHJ3rTXWBegSVQkevJKZwE8QWscXk&export=download"
             )
         )
-        list.add(SectionMenu("Biflores Info", ""))
+        list.add(SectionMenu("Biflores Info", "https://drive.google.com/u/0/uc?id=1Qda4MhoEvoy375vl7uiyeaAk0KrRDTEQ&export=download"))
     }
 
     companion object {

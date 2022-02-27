@@ -22,6 +22,7 @@ class UsersAdapter(var context: Context, var list: ArrayList<Users>) :
 
 //            Glide.with(context)
 //                .load(users.user_image_url)
+//                .onlyRetrieveFromCache(true)
 //                .centerCrop()
 //                .diskCacheStrategy(DiskCacheStrategy.AUTOMATIC)
 //                .into(itemUsersBinding.userImage)

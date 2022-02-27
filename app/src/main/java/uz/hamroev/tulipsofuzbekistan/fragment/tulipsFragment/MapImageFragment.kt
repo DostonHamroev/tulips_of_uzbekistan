@@ -46,7 +46,6 @@ class MapImageFragment : Fragment() {
 
         Glide.with(binding.root.context)
             .load(img)
-            .onlyRetrieveFromCache(true)
             .diskCacheStrategy(DiskCacheStrategy.AUTOMATIC)
             .into(binding.image)
 

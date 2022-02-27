@@ -194,14 +194,14 @@ class ImageAndMapFragment : Fragment() {
             }
             "24" -> {
                 listImage = ArrayList()
-                listImage.add(ImageViewPager2("https://drive.google.com/u/0/uc?id=17bLWWSPUUdpoMJJJ_JGGDmAgw9RpCL7R&export=download"))
-                listImage.add(ImageViewPager2("https://drive.google.com/u/0/uc?id=17ND2rW7o6wPYYLsF2JQQ-DhlilYA4kTL&export=download"))
-            }
-            "25" -> {
-                listImage = ArrayList()
                 listImage.add(ImageViewPager2("https://drive.google.com/u/0/uc?id=11bzV3UP8uTvvyQ35B9Wc7sjPbkMb1hz7&export=download"))
                 listImage.add(ImageViewPager2("https://drive.google.com/u/0/uc?id=1KcRsg3x8mY7E-DEE7jZhm2MhTUJEs-qi&export=download"))
             }
+            "25" -> {
+                listImage = ArrayList()
+                listImage.add(ImageViewPager2("https://drive.google.com/u/0/uc?id=17bLWWSPUUdpoMJJJ_JGGDmAgw9RpCL7R&export=download"))
+                listImage.add(ImageViewPager2("https://drive.google.com/u/0/uc?id=17ND2rW7o6wPYYLsF2JQQ-DhlilYA4kTL&export=download"))
+  }
             "26" -> {
                 listImage = ArrayList()
                 listImage.add(ImageViewPager2("https://drive.google.com/u/0/uc?id=10xN7qFfGfBUBje752xE0nQ4zmAehlFHo&export=download"))

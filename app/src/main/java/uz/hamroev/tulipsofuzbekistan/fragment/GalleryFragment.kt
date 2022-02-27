@@ -89,8 +89,10 @@ class GalleryFragment : Fragment() {
         list.add(Gallery("Tulipa micheliana Hoog","https://drive.google.com/u/0/uc?id=1yZoZnDctoXsTROpAdsGt1g8s8jXS1XYI&export=download"))
         list.add(Gallery("Tulipa vvedenskyi Botschantz","https://drive.google.com/u/0/uc?id=1NVk7--TGEiPS918mmlW-XWnla_JEXjB2&export=download"))
         list.add(Gallery("Tulipa butkovii Botschantz","https://drive.google.com/u/0/uc?id=1fkFusYKLQzyfHU-yQoEtjIx9yEp0QgtH&export=download"))
-        list.add(Gallery("Tulipa kaufmanniana Regel","https://drive.google.com/u/0/uc?id=17bLWWSPUUdpoMJJJ_JGGDmAgw9RpCL7R&export=download"))
-        list.add(Gallery("Tulipa tschimganica Botschantz","https://drive.google.com/u/0/uc?id=11bzV3UP8uTvvyQ35B9Wc7sjPbkMb1hz7&export=download"))
+
+        list.add(Gallery("Tulipa kaufmanniana Regel","https://drive.google.com/u/0/uc?id=11bzV3UP8uTvvyQ35B9Wc7sjPbkMb1hz7&export=download"))
+        list.add(Gallery("Tulipa tschimganica Botschantz","https://drive.google.com/u/0/uc?id=17bLWWSPUUdpoMJJJ_JGGDmAgw9RpCL7R&export=download"))
+
         list.add(Gallery("Tulipa dubia Vved","https://drive.google.com/u/0/uc?id=10xN7qFfGfBUBje752xE0nQ4zmAehlFHo&export=download"))
         list.add(Gallery("Tulipa uzbekistanica Botschantz. & Scharipov","https://drive.google.com/u/0/uc?id=1Yp5RN6oGTv6KnNxMHNoW8S5d2IkhT64n&export=download"))
         list.add(Gallery("Tulipa sogdiana Bunge","https://drive.google.com/u/0/uc?id=11zAfAOw8kysraDEv6YRbjLa5imOsmk7u&export=download"))

@@ -1,11 +1,11 @@
 package uz.hamroev.tulipsofuzbekistan.fragment
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import uz.hamroev.tulipsofuzbekistan.R
+import androidx.fragment.app.Fragment
+import uz.hamroev.tulipsofuzbekistan.databinding.FragmentCertificateBinding
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -30,12 +30,24 @@ class CertificateFragment : Fragment() {
         }
     }
 
+    lateinit var binding: FragmentCertificateBinding
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_certificate, container, false)
+        binding = FragmentCertificateBinding.inflate(layoutInflater, container, false)
+
+        loadPdf()
+
+        return binding.root
+    }
+
+    private fun loadPdf() {
+        try {
+            binding.pdfViewCertificat.fromAsset("").show()
+        } catch (e: Exception) {
+
+        }
     }
 
     companion object {

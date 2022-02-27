@@ -26,7 +26,6 @@ class LikeAdapter(
             Glide.with(context)
                 .load(like.image_url)
                 .centerCrop()
-                .onlyRetrieveFromCache(true)
                 .diskCacheStrategy(DiskCacheStrategy.AUTOMATIC)
                 .into(itemLikeBinding.imageLike)
 

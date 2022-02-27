@@ -28,7 +28,6 @@ class GalleryAdapter(
             Glide.with(context)
                 .load(gallery.image_url_tulips)
                 .centerCrop()
-                .onlyRetrieveFromCache(true)
                 .diskCacheStrategy(DiskCacheStrategy.AUTOMATIC)
                 .into(itemGalleryBinding.imageWithUrl)
 

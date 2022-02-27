@@ -954,18 +954,20 @@ class TulipsFragment : Fragment() {
             "24" -> {
                 binding.infoTulips.text = InfoTulips.tulips24Info
                 map_image_url =
-                    "https://drive.google.com/u/0/uc?id=1nHmZktyxZH_Jnp-_RWP0pmsXFDoNe-Ux&export=download"
-                listImage = ArrayList()
-                listImage.add(TulipsImage("https://drive.google.com/u/0/uc?id=17bLWWSPUUdpoMJJJ_JGGDmAgw9RpCL7R&export=download"))
-                listImage.add(TulipsImage("https://drive.google.com/u/0/uc?id=17ND2rW7o6wPYYLsF2JQQ-DhlilYA4kTL&export=download"))
-            }
-            "25" -> {
-                binding.infoTulips.text = InfoTulips.tulips25Info
-                map_image_url =
                     "https://drive.google.com/u/0/uc?id=1lceRx-jv4FfA38vGVtiYmZFdhf43VWY6&export=download"
                 listImage = ArrayList()
                 listImage.add(TulipsImage("https://drive.google.com/u/0/uc?id=11bzV3UP8uTvvyQ35B9Wc7sjPbkMb1hz7&export=download"))
                 listImage.add(TulipsImage("https://drive.google.com/u/0/uc?id=1KcRsg3x8mY7E-DEE7jZhm2MhTUJEs-qi&export=download"))
+
+            }
+            "25" -> {
+                binding.infoTulips.text = InfoTulips.tulips25Info
+                map_image_url =
+                    "https://drive.google.com/u/0/uc?id=1nHmZktyxZH_Jnp-_RWP0pmsXFDoNe-Ux&export=download"
+                listImage = ArrayList()
+                listImage.add(TulipsImage("https://drive.google.com/u/0/uc?id=17bLWWSPUUdpoMJJJ_JGGDmAgw9RpCL7R&export=download"))
+                listImage.add(TulipsImage("https://drive.google.com/u/0/uc?id=17ND2rW7o6wPYYLsF2JQQ-DhlilYA4kTL&export=download"))
+
             }
             "26" -> {
                 binding.infoTulips.text = InfoTulips.tulips26Info

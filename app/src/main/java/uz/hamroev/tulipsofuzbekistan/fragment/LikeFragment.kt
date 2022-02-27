@@ -479,7 +479,7 @@ class LikeFragment : Fragment() {
                 listLike.add(
                     Like(
                         "Tulipa kaufmanniana Regel",
-                        "https://drive.google.com/u/0/uc?id=17bLWWSPUUdpoMJJJ_JGGDmAgw9RpCL7R&export=download"
+                        "https://drive.google.com/u/0/uc?id=11bzV3UP8uTvvyQ35B9Wc7sjPbkMb1hz7&export=download"
                     )
                 )
 
@@ -492,7 +492,7 @@ class LikeFragment : Fragment() {
                 listLike.add(
                     Like(
                         "Tulipa tschimganica Botschantz",
-                        "https://drive.google.com/u/0/uc?id=11bzV3UP8uTvvyQ35B9Wc7sjPbkMb1hz7&export=download"
+                        "https://drive.google.com/u/0/uc?id=17bLWWSPUUdpoMJJJ_JGGDmAgw9RpCL7R&export=download"
                     )
                 )
 
