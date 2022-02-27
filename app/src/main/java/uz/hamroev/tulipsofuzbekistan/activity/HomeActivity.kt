@@ -212,7 +212,7 @@ class HomeActivity : AppCompatActivity() {
         listNav.add(NavMenu("Like", R.drawable.ic_like))
         listNav.add(NavMenu("Certificate", R.drawable.ic_certificat))
         listNav.add(NavMenu("App About", R.drawable.ic_info))
-        listNav.add(NavMenu("Users", R.drawable.ic_users))
+        listNav.add(NavMenu("Authors", R.drawable.ic_users))
         listNav.add(NavMenu("Rate us", R.drawable.ic_rate))
         listNav.add(NavMenu("Share", R.drawable.ic_share))
         listNav.add(NavMenu("Exit", R.drawable.ic_exit))
