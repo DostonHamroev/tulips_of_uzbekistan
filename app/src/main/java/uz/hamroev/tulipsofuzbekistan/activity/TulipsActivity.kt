@@ -19,7 +19,6 @@ class TulipsActivity : AppCompatActivity() {
         Cache.init(this)
 
 
-
     }
 
     override fun onSupportNavigateUp(): Boolean {

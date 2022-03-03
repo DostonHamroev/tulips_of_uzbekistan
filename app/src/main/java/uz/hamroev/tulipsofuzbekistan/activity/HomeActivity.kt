@@ -4,6 +4,9 @@ import android.content.ActivityNotFoundException
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
+import android.os.Handler
+import android.os.Looper
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.app.AppCompatDelegate
 import androidx.core.view.GravityCompat
@@ -21,6 +24,10 @@ class HomeActivity : AppCompatActivity() {
     lateinit var navMenuAdapter: NavMenuAdapter
     lateinit var listNav: ArrayList<NavMenu>
     var isHome = 1
+
+    var isBack = false
+    lateinit var handler: Handler
+    var doubleToast = "Please click BACK again to exit"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -48,6 +55,7 @@ class HomeActivity : AppCompatActivity() {
                             binding.bottomLikeImage.setImageResource(R.drawable.ic_like_grey)
                             binding.bottomInfoImage.setImageResource(R.drawable.ic_info_grey)
                             binding.bottomUsersImage.setImageResource(R.drawable.ic_users_grey)
+                            navController.popBackStack()
                             navController.navigate(R.id.homeFragment)
                             binding.drawerLayout.closeDrawers()
                         }
@@ -57,6 +65,7 @@ class HomeActivity : AppCompatActivity() {
                             binding.bottomLikeImage.setImageResource(R.drawable.ic_like_grey)
                             binding.bottomInfoImage.setImageResource(R.drawable.ic_info_grey)
                             binding.bottomUsersImage.setImageResource(R.drawable.ic_users_grey)
+                            navController.popBackStack()
                             navController.navigate(R.id.galleryFragment)
                             binding.drawerLayout.closeDrawers()
                         }
@@ -66,10 +75,12 @@ class HomeActivity : AppCompatActivity() {
                             binding.bottomLikeImage.setImageResource(R.drawable.ic_like_green)
                             binding.bottomInfoImage.setImageResource(R.drawable.ic_info_grey)
                             binding.bottomUsersImage.setImageResource(R.drawable.ic_users_grey)
+                            navController.popBackStack()
                             navController.navigate(R.id.likeFragment)
                             binding.drawerLayout.closeDrawers()
                         }
                         3 -> {
+                            navController.popBackStack()
                             navController.navigate(R.id.certificateFragment)
                             binding.drawerLayout.closeDrawers()
                         }
@@ -79,6 +90,7 @@ class HomeActivity : AppCompatActivity() {
                             binding.bottomLikeImage.setImageResource(R.drawable.ic_like_grey)
                             binding.bottomInfoImage.setImageResource(R.drawable.ic_info_green)
                             binding.bottomUsersImage.setImageResource(R.drawable.ic_users_grey)
+                            navController.popBackStack()
                             navController.navigate(R.id.appAboutFragment)
                             binding.drawerLayout.closeDrawers()
                         }
@@ -88,6 +100,7 @@ class HomeActivity : AppCompatActivity() {
                             binding.bottomLikeImage.setImageResource(R.drawable.ic_like_grey)
                             binding.bottomInfoImage.setImageResource(R.drawable.ic_info_grey)
                             binding.bottomUsersImage.setImageResource(R.drawable.ic_users_green)
+                            navController.popBackStack()
                             navController.navigate(R.id.usersFragment)
                             binding.drawerLayout.closeDrawers()
                         }
@@ -139,6 +152,7 @@ class HomeActivity : AppCompatActivity() {
             binding.bottomLikeImage.setImageResource(R.drawable.ic_like_grey)
             binding.bottomInfoImage.setImageResource(R.drawable.ic_info_grey)
             binding.bottomUsersImage.setImageResource(R.drawable.ic_users_grey)
+            navController.popBackStack()
             navController.navigate(R.id.galleryFragment)
         }
 
@@ -150,6 +164,7 @@ class HomeActivity : AppCompatActivity() {
             binding.bottomLikeImage.setImageResource(R.drawable.ic_like_grey)
             binding.bottomInfoImage.setImageResource(R.drawable.ic_info_grey)
             binding.bottomUsersImage.setImageResource(R.drawable.ic_users_grey)
+            navController.popBackStack()
             navController.navigate(R.id.homeFragment)
             binding.drawerLayout.closeDrawers()
         }
@@ -162,6 +177,7 @@ class HomeActivity : AppCompatActivity() {
             binding.bottomLikeImage.setImageResource(R.drawable.ic_like_grey)
             binding.bottomInfoImage.setImageResource(R.drawable.ic_info_grey)
             binding.bottomUsersImage.setImageResource(R.drawable.ic_users_grey)
+            navController.popBackStack()
             navController.navigate(R.id.galleryFragment)
             binding.drawerLayout.closeDrawers()
         }
@@ -174,6 +190,7 @@ class HomeActivity : AppCompatActivity() {
             binding.bottomLikeImage.setImageResource(R.drawable.ic_like_green)
             binding.bottomInfoImage.setImageResource(R.drawable.ic_info_grey)
             binding.bottomUsersImage.setImageResource(R.drawable.ic_users_grey)
+            navController.popBackStack()
             navController.navigate(R.id.likeFragment)
             binding.drawerLayout.closeDrawers()
         }
@@ -186,6 +203,7 @@ class HomeActivity : AppCompatActivity() {
             binding.bottomLikeImage.setImageResource(R.drawable.ic_like_grey)
             binding.bottomInfoImage.setImageResource(R.drawable.ic_info_green)
             binding.bottomUsersImage.setImageResource(R.drawable.ic_users_grey)
+            navController.popBackStack()
             navController.navigate(R.id.appAboutFragment)
             binding.drawerLayout.closeDrawers()
         }
@@ -197,6 +215,7 @@ class HomeActivity : AppCompatActivity() {
             binding.bottomLikeImage.setImageResource(R.drawable.ic_like_grey)
             binding.bottomInfoImage.setImageResource(R.drawable.ic_info_grey)
             binding.bottomUsersImage.setImageResource(R.drawable.ic_users_green)
+            navController.popBackStack()
             navController.navigate(R.id.usersFragment)
             binding.drawerLayout.closeDrawers()
         }
@@ -223,10 +242,22 @@ class HomeActivity : AppCompatActivity() {
     }
 
     override fun onBackPressed() {
+
+
         if (binding.drawerLayout.isDrawerOpen(GravityCompat.START)) {
             binding.drawerLayout.closeDrawer(GravityCompat.START)
         } else
-            super.onBackPressed()
+            if (isBack) {
+                super.onBackPressed()
+                return
+            }
+
+        this.isBack = true
+        handler = Handler(Looper.getMainLooper())
+        Toast.makeText(this, "$doubleToast", Toast.LENGTH_SHORT).show()
+        handler.postDelayed({
+            isBack = false
+        }, 1000)
     }
 
 }

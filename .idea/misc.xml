@@ -36,6 +36,7 @@
         <entry key="app/src/main/res/layout/activity_home.xml" value="0.16" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.19270833333333334" />
         <entry key="app/src/main/res/layout/activity_tulips.xml" value="0.16" />
+        <entry key="app/src/main/res/layout/dialog_exit.xml" value="0.22" />
         <entry key="app/src/main/res/layout/fragment_app_about.xml" value="0.15818725951261223" />
         <entry key="app/src/main/res/layout/fragment_certificate.xml" value="0.1453612654980761" />
         <entry key="app/src/main/res/layout/fragment_gallery.xml" value="0.15818725951261223" />

@@ -524,7 +524,12 @@ class SectionsMenuFragment : Fragment() {
                 "https://drive.google.com/u/0/uc?id=1JydhF2P-qyzW_OOxFDp8xMLPey86jhLP&export=download"
             )
         )
-        list.add(SectionMenu("Lanatae Info", "https://drive.google.com/u/0/uc?id=1Qda4MhoEvoy375vl7uiyeaAk0KrRDTEQ&export=download"))
+        list.add(
+            SectionMenu(
+                "Lanatae Info",
+                "https://drive.google.com/u/0/uc?id=1Qda4MhoEvoy375vl7uiyeaAk0KrRDTEQ&export=download"
+            )
+        )
     }
 
     private fun load1Section() {
@@ -597,7 +602,12 @@ class SectionsMenuFragment : Fragment() {
                 "https://drive.google.com/u/0/uc?id=16C5sbzds6sgrPFoji1HOsswOBxfgWURG&export=download"
             )
         )
-        list.add(SectionMenu("Kolpakowskianae Info", "https://drive.google.com/u/0/uc?id=1Qda4MhoEvoy375vl7uiyeaAk0KrRDTEQ&export=download"))
+        list.add(
+            SectionMenu(
+                "Kolpakowskianae Info",
+                "https://drive.google.com/u/0/uc?id=1Qda4MhoEvoy375vl7uiyeaAk0KrRDTEQ&export=download"
+            )
+        )
     }
 
     private fun load2Section() {
@@ -634,7 +644,12 @@ class SectionsMenuFragment : Fragment() {
                 "https://drive.google.com/u/0/uc?id=1fkFusYKLQzyfHU-yQoEtjIx9yEp0QgtH&export=download"
             )
         )
-        list.add(SectionMenu("Vinistriatae Info", "https://drive.google.com/u/0/uc?id=1Qda4MhoEvoy375vl7uiyeaAk0KrRDTEQ&export=download"))
+        list.add(
+            SectionMenu(
+                "Vinistriatae Info",
+                "https://drive.google.com/u/0/uc?id=1Qda4MhoEvoy375vl7uiyeaAk0KrRDTEQ&export=download"
+            )
+        )
     }
 
     private fun load3Section() {
@@ -665,7 +680,12 @@ class SectionsMenuFragment : Fragment() {
                 "https://drive.google.com/u/0/uc?id=1Yp5RN6oGTv6KnNxMHNoW8S5d2IkhT64n&export=download"
             )
         )
-        list.add(SectionMenu("Spiranthera Info", "https://drive.google.com/u/0/uc?id=1Qda4MhoEvoy375vl7uiyeaAk0KrRDTEQ&export=download"))
+        list.add(
+            SectionMenu(
+                "Spiranthera Info",
+                "https://drive.google.com/u/0/uc?id=1Qda4MhoEvoy375vl7uiyeaAk0KrRDTEQ&export=download"
+            )
+        )
 
     }
 
@@ -721,7 +741,12 @@ class SectionsMenuFragment : Fragment() {
                 "https://drive.google.com/u/0/uc?id=1hQ0IHJ3rTXWBegSVQkevJKZwE8QWscXk&export=download"
             )
         )
-        list.add(SectionMenu("Biflores Info", "https://drive.google.com/u/0/uc?id=1Qda4MhoEvoy375vl7uiyeaAk0KrRDTEQ&export=download"))
+        list.add(
+            SectionMenu(
+                "Biflores Info",
+                "https://drive.google.com/u/0/uc?id=1Qda4MhoEvoy375vl7uiyeaAk0KrRDTEQ&export=download"
+            )
+        )
     }
 
     companion object {

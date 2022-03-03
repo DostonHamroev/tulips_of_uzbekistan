@@ -20,7 +20,6 @@ object Cache {
     }
 
 
-
     var position: String?
         get() = sharedPreferences.getString("joy", "0")
         set(value) = sharedPreferences.edit() {
@@ -76,7 +75,6 @@ object Cache {
                 it.putString("pdfposition", value)
             }
         }
-
 
 
     /* tulips for like */
@@ -360,8 +358,6 @@ object Cache {
                 it.putString("like35", value)
             }
         }
-
-
 
 
 }

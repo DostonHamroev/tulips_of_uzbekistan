@@ -4,7 +4,6 @@ import android.content.Context
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.realpacific.clickshrinkeffect.applyClickShrink
 import uz.hamroev.tulipsofuzbekistan.databinding.ItemNavMenuBinding
 import uz.hamroev.tulipsofuzbekistan.model.NavMenu
 

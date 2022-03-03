@@ -28,4 +28,8 @@ Filaments with hairs at the base and/or hairy along their length. Flowers campan
     <string name="about_authors">Authors of \nTulips of \nUzbekistan App</string>
     <string name="of">of</string>
     <string name="no_like">No like</string>
+    <string name="exit_text">Do you want exit ?</string>
+    <string name="exit">Exit</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
 </resources>

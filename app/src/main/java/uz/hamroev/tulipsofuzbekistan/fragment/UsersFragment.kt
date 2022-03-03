@@ -54,8 +54,20 @@ class UsersFragment : Fragment() {
     private fun loadUsers() {
         list = ArrayList()
         //list.add(Users("Beknazarova Saida \nSafibullayevna","professor of Tashkent university of information technologies, doctor of technical science",R.drawable.ic_saida))
-        list.add(Users("Tojibaev \nKomiljon \nSharobitdinovich","Head of the laboratory \"Flora of Uzbekistan\" of the Institute of Botany of the Academy of Sciences of the Republic of Uzbekistan.",R.drawable.ic_tojibaev))
-        list.add(Users("Makhmudjanov Dilmurod \nIbrokhim ugli","Junior researcher of the laboratory \"Flora of Uzbekistan\" of the Institute of Botany of the Academy of Sciences of the Republic of Uzbekistan.",R.drawable.ic_dilmurod))
+        list.add(
+            Users(
+                "Tojibaev \nKomiljon \nSharobitdinovich",
+                "Head of the laboratory \"Flora of Uzbekistan\" of the Institute of Botany of the Academy of Sciences of the Republic of Uzbekistan.",
+                R.drawable.ic_tojibaev
+            )
+        )
+        list.add(
+            Users(
+                "Makhmudjanov Dilmurod \nIbrokhim ugli",
+                "Junior researcher of the laboratory \"Flora of Uzbekistan\" of the Institute of Botany of the Academy of Sciences of the Republic of Uzbekistan.",
+                R.drawable.ic_dilmurod
+            )
+        )
     }
 
     companion object {

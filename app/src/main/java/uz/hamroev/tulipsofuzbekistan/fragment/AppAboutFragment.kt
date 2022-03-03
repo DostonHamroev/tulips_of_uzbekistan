@@ -41,7 +41,7 @@ class AppAboutFragment : Fragment() {
 
         binding.introDesc.text = InfoTulips.intro_desc
 
-       binding.pdfView.fromAsset("main.pdf").show()
+        binding.pdfView.fromAsset("main.pdf").show()
 
         return binding.root
 

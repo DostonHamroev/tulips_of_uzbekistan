@@ -160,7 +160,8 @@ object InfoTulips {
     )
 
     @RequiresApi(Build.VERSION_CODES.N)
-    val tulips9Info = Html.fromHtml("""
+    val tulips9Info = Html.fromHtml(
+        """
         <center><b><h2>9 (2). Tulipa borszczowii Baker</h2></b></center>
         <br><br>&emsp;Bull. Soc. Imp. Naturalistes Moscou 41(I): 438 (1868).
         <br>Type: [Kazakhstan] Steppe Kara-Kum am Aralsee, Borszczow 677 (LE!)
@@ -175,10 +176,12 @@ object InfoTulips {
         <br><br><b><h5>Note.</b></h5> Previously, this species has been reported as endemic of Kazakhstan widespread in western Betpakdala, Aral deserts, northern Kyzylkum, and the lower reaches of Sarysu River (Vvedensky, 1934, 1941; Vvedensky & Kovalevskaja, 1971; Ivashchenko, 2005). It was not included in the checklist of the flora of Uzbekistan. In 2002, it has been collected from Uzbekistan for the first time (from the western part of Hungry Steppe near the borders with Kyzylkum desert and Kazakhstan (Beshko s.n., 2002, TASH). Specimens collected from the neighboring areas of Kazakhstan are kept at TASH (Adylov 1486, 1961; Makartschuk, 1965). Later, several new populations have been found in the Uzbekistan part of Kyzylkum, including relic mountains Muruntau and Kuldjuktau (Abduraimov, 2016; Shomurodov & Abduraimov, 2018). At present, seven locations of this species are known in Uzbekistan (3 – in the western part of Hungry Steppe and the eastern edge of Kyzylkum, 4 – in relic mountains). The populations of the Hungry Steppe and eastern Kyzylkum are comprised of a yellow form, whereas a red form of this tulip occurs in the insular low mountains Muruntau.
 
 
-    """.trimIndent(), Html.FROM_HTML_MODE_COMPACT)
+    """.trimIndent(), Html.FROM_HTML_MODE_COMPACT
+    )
 
     @RequiresApi(Build.VERSION_CODES.N)
-    val tulips10Info = Html.fromHtml("""
+    val tulips10Info = Html.fromHtml(
+        """
         <center><b><h2>10 (3). Tulipa korolkowii Regel</h2></b></center>
         <br><br>&emsp;Trudy Imp. S.-Peterburgsk. Bot. Sada 3(2): 295 (1875).
         <br>Type: [Uzbekistan] Habitat in solo lutoso in desertis inter Turkestaniam et Khiwam prope Farisch, Korolkow et Krause s.n. (LE).
@@ -193,10 +196,12 @@ object InfoTulips {
          <br><br><b><h5>Note.</b></h5> Two more species related to Tulipa korolkowii have been described from Middle Asia, and their taxonomical status is a subject of discussion. They are T. rosea Vved. which grows in north Tajikistan (in the western part of Fergana Valley), and T. nitida Hoog widespread in Western Pamir-Alay and South-Western Tien Shan (in the same areas as T. korolkowii). In the “Flora of USSR” (1935: 343) and “Flora of Uzbekistan” (1941: 480, 481), Vvedensky gave T. korolkowii, T. nitida and T. rosea as three geographically separated species, and reported the first of them for foothills of South-Western Tien Shan and Northern Pamir-Alay, the second species – for Western and South-Western Pamir-Alay, and the third species – for the western part of Fergana Valley. However, he noted that the morphological differences between T. korolkowii (leaves exceeding the flower, smaller flower, black filaments, greenish ovary) and T. nitida (strongly curled leaves not exceeding the flower, larger flower pendulous in the bud, black or pink filaments, pinkish ovary) are unclear and the separation of these two species is artificial. Later, in “Conspectus Florae Asiae Mediae” (1971: 103), T. nitida has been treated by Vvedensky & Kovalevskaja as a synonym of T. korolkowii. Based on the results of flow cytometry, Zonneveld (2009) regarded T. korolkowii and T. nitida as two distinct species and T. rosea as T. korolkowii f. rosea (Vved.) Zonn. Christenhusz & al. (2013) considered T. nitida and T. rosea as synonyms of T. korolkowii. According to J.J. de Groot’s personal communication, in the same conditions ex-situ, T. nitida and T. korolkowii f. rosea blooms earlier than T. korolkowii. Concerning T. korolkowii and T. nitida, our long-term surveys in natural habitats and observations in ex situ living collection of TASH and Tashkent Botanical Garden showed that such characters as more or less curled leaves, the length of stem, leaves, and tepals are variable depending on habitat and climatic conditions. Dwarf plants with strongly curled approximate leaves exceeding almost sessile flower occur on open dry stony places, while the plants growing on fine soils in relatively humid and shady places usually are more or less tall, with slightly undulate leaves not exceeding the flower. As for color of filaments and ovary, plants with black, purple, and bicolor black-purple filaments as well as greenish and pinkish ovary can be found in the same population. As regards tulip with pink or crimson flowers which has been treated as T. rosea in above mentioned classical works, we were unable to find any materials confirming the presence of this taxon within the present-day boundaries of the Republic of Uzbekistan.
 
 
-    """.trimIndent(), Html.FROM_HTML_MODE_COMPACT)
+    """.trimIndent(), Html.FROM_HTML_MODE_COMPACT
+    )
 
     @RequiresApi(Build.VERSION_CODES.N)
-    val tulips11Info = Html.fromHtml("""
+    val tulips11Info = Html.fromHtml(
+        """
        <center><b><h2> 11 (4). Tulipa korolkowii f. rosea (Vved.) Zonn.</h2></b></center>
        <br><br>&emsp; Pl. Syst. Evol. 281: 244 (2009).
         <br>Type: [Uzbekistan] Habitat in solo lutoso in desertis inter Turkestaniam et Khiwam prope Farisch, Korolkow et Krause s.n. (LE).
@@ -211,10 +216,12 @@ object InfoTulips {
          <br><br><b><h5>Note.</b></h5> The species is extremely rare in Uzbekistan. In all previous publications, incl. Tojibaev, Kadyrov, 2010, the pink form of Tulipa korolkowii was not given for Uzbekistan. It was believed that it can be found in the spurs of the Turkestan ridge, near the border with Tajikistan.
 
 
-    """.trimIndent(), Html.FROM_HTML_MODE_COMPACT)
+    """.trimIndent(), Html.FROM_HTML_MODE_COMPACT
+    )
 
     @RequiresApi(Build.VERSION_CODES.N)
-    val tulips12Info = Html.fromHtml("""
+    val tulips12Info = Html.fromHtml(
+        """
         <center><b><h2> 12 (5). Tulipa ferganica Vved.</h2></b></center>
         <br><br>&emsp;Byull. Sredne-Aziatsk. Gosud. Univ. 21: 148 (1935).
         <br>Type: [Kyrgyzstan] Grown in the expiremental plot of the Botanical garden of Middle Asian University from bulbs brought by Z.P. Botschantzeva from upper reaches of the river Kugart, above the confluence with Aubek, 23.08.1933, Vvedensky 592 (TASH!)
@@ -229,10 +236,12 @@ object InfoTulips {
         <br><br><b><h5>Note.</b></h5> According to J.J. de Groot’s communication, based on long-term observations in his living collection, at least two forms of Tulipa ferganica can be distinguished: 1) early flowering plants of relatively stocky habit that have been collected from the western part of the species range (Naryn, Osh); 2) late flowering and relatively tall plants from the eastern areas (Kugart). Thus, T. ferganica may be a group of very similar species, and further comparative studies are required.
 
 
-    """.trimIndent(), Html.FROM_HTML_MODE_COMPACT)
+    """.trimIndent(), Html.FROM_HTML_MODE_COMPACT
+    )
 
     @RequiresApi(Build.VERSION_CODES.N)
-    val tulips13Info = Html.fromHtml("""
+    val tulips13Info = Html.fromHtml(
+        """
         <center><b><h2> 13 (6). Tulipa scharipovii Tojibaev</h2></b></center>
        <br><br>&emsp; Linzer Biol. Beitr. 41: 1063 (2009).
         <br>Type: Uzbekistan. Tien-Shan Occidentalis, montes Kuramensis, prope pagum Uygursay, 20.03.2009, Tojibaev sn. (TASH!).
@@ -246,10 +255,12 @@ object InfoTulips {
         <br><br><b><h5>Etymology.</b></h5> The species is named after Uzbek tulip expert Asadulla Scharipov (19…–20…), who devoted all his scientific activity to the study of Middle Asian tulips in the Tashkent Botanical Garden.
 
 
-    """.trimIndent(), Html.FROM_HTML_MODE_COMPACT)
+    """.trimIndent(), Html.FROM_HTML_MODE_COMPACT
+    )
 
     @RequiresApi(Build.VERSION_CODES.N)
-    val tulips14Info = Html.fromHtml("""
+    val tulips14Info = Html.fromHtml(
+        """
         <center><b><h2> 14 (7). Tulipa intermedia Tojibaev & J.J. de Groot</h2></b></center>
         <br><br>&emsp;Nordic Journal of Botany 32: 546–550, (2014).
         <br>Type: Uzbekistan. Ferghana Depression: Kurama Mt Range, Pap-Chust foothills, vicinities of Muruldi and Kandisai villages, Artemisia steppe, 40°56′29.6″ N, 70° 52′ 02.5″ E, 936 m a.s.l., 30.03.2013, K. Tojibaev 156 (TASH!).
@@ -266,20 +277,24 @@ object InfoTulips {
         <br>Flowers yellow, brownish or dark yellow at base, outer tepals sometimes reddish around the midrib on the outer surface. Filaments yellow (fig. 25–26).
 
 
-    """.trimIndent(), Html.FROM_HTML_MODE_COMPACT)
+    """.trimIndent(), Html.FROM_HTML_MODE_COMPACT
+    )
 
     @RequiresApi(Build.VERSION_CODES.N)
-    val tulips15Info = Html.fromHtml("""
+    val tulips15Info = Html.fromHtml(
+        """
          <center><b><h2>15 8. Tulipa intermedia var. korolkowioides Tojibaev & J.J. de Groot</h2></b></center>
         <br><br>&emsp;Type: Uzbekistan. Ferghana Depression: Kurama Mt Range, Pap-Chust foothills, vicinities of Muruldi and Kandisai villages, Artemisia steppe, 30 Mar 2013, K. Tojibaev 161 (TASH!).
         <br><br>Flowers reddish-orange or light red, with black or dark brown blotch. Filaments bicolored: pale brownish in the basal part and red or reddish in the upper part (Fig. 3). The color of the filaments is mostly the same as the basal blotch. The flowers of this variety are similar to flowers of T. korolkowii, but smaller and reddish-orange or light red (the flowers of 
         T. korolkowii are darker, bright red or crimson) (fig. 27–28).
 
 
-    """.trimIndent(), Html.FROM_HTML_MODE_COMPACT)
+    """.trimIndent(), Html.FROM_HTML_MODE_COMPACT
+    )
 
     @RequiresApi(Build.VERSION_CODES.N)
-    val tulips16Info = Html.fromHtml("""
+    val tulips16Info = Html.fromHtml(
+        """
         <center><b><h2> 16 (9). Tulipa talassica Lazkov</h2></b></center>
        <br><br>&emsp; Turczaninowia, 14(3): 11–12 (2011).
         <br>Type: Jugi Kirgisici declivium generale australe, praemontia adversus urbem Talas, declivitates lapidosae, 27 IV 2011, G. Lazkov (LE!), isotype – ALTB, FRU, MW!
@@ -294,10 +309,12 @@ object InfoTulips {
         <br><br><b><h5>Note.</b></h5> At first sight, T. talassica looks the same as T. intermedia. But in cultivation, growing under the same circumstances they show their real character, which shows that they are not closely related. T. intermedia is clearly a member of the Korolkowii group of tulips. In the wild it grows on acid soils, granite etc. Whereas T. talassica belongs to the Kolpakovskiana group of tulips, but differ from T. kolpakovskiana and close relatives, that it grows on chalk soil, not that it likes chalk, but it found a way to managed it as shown on the powdered stem on the photo that I took on the type place. In cultivation T. talassica has inner tepals of the same size as the outers or slightly smaller, and has no basal spot, the outer tepals have pale reddish outside. T. intermedia has bigger inner tepals as the outers and a clearly visable small basal spot. Both species differ in in their genetical parts also.
 
 
-    """.trimIndent(), Html.FROM_HTML_MODE_COMPACT)
+    """.trimIndent(), Html.FROM_HTML_MODE_COMPACT
+    )
 
     @RequiresApi(Build.VERSION_CODES.N)
-    val tulips17Info = Html.fromHtml("""
+    val tulips17Info = Html.fromHtml(
+        """
         <center><b><h2> 17 (10). Tulipa hissarica Popov & Vved.</h2></b></center>
         <br><br>&emsp;Byull. Sredne-Aziatsk. Gosud. Univ. 21: 149 (1935).
         <br>Type: [Tajikistan] Hissar Mountains, pass Mura, 14.04.1915, Popov 10634 (TASH!)
@@ -312,10 +329,12 @@ object InfoTulips {
         <br><br><b><h5>Note.</b></h5> The species were described by Popov and Vvedenskyi This species (as well as the next species, Tulipa korshinskyi), is widespread mainly in Tajikistan and known only from solitary locations on the highlands of Hissar Range, near the border with Tajikistan. Previously, this tulip has been reported as endemic to Tajikistan (Vvedensky, 1934; Vvedensky, 1963; Vvedensky & Kovalevskaja, 1971).
 
 
-    """.trimIndent(), Html.FROM_HTML_MODE_COMPACT)
+    """.trimIndent(), Html.FROM_HTML_MODE_COMPACT
+    )
 
     @RequiresApi(Build.VERSION_CODES.N)
-    val tulips18Info = Html.fromHtml("""
+    val tulips18Info = Html.fromHtml(
+        """
         <center><b><h2> 18 (11). Tulipa korshinskyi Vved.</h2></b></center>
         <br><br>&emsp;Byull. Sredne-Aziatsk. Gosud. Univ. 21: 149 (1935).
         <br>Type: [Tajikistan] Darvaz, 17.04.1897, Korshinsky 1713 (4928) (LE!)
@@ -330,10 +349,12 @@ object InfoTulips {
         <br><br><b><h5>Note.</b></h5> Tulipa korshinskyi is one of the species recently recorded for Uzbekistan for the first time on the basis of herbarium specimens collected in the middle of XX Century near the border with Tajikistan (Tojibaev, Turginov, 2014). Previously, it has been reported as endemic to Tajikistan (Vvedensky, 1934; Vvedensky, 1963; Vvedensky & Kovalevskaja, 1971). Botschantzeva (1982) and Zonneveld (2009) considered this tulip as a separate species of sect. Kolpakowkianae, Raamsd. ex Zonn. & Veldk. According to Christenhusz & al. (2013), it is synonym of Tulipa anisophylla Vved. Further studies are strongly required.
 
 
-    """.trimIndent(), Html.FROM_HTML_MODE_COMPACT)
+    """.trimIndent(), Html.FROM_HTML_MODE_COMPACT
+    )
 
     @RequiresApi(Build.VERSION_CODES.N)
-    val tulips19Info = Html.fromHtml("""
+    val tulips19Info = Html.fromHtml(
+        """
         <center><b><h2>19 (1). Tulipa greigii Regel</h2></b></center>
         <br><br>&emsp;Gartenflora 22: 290, t. 773 (1873).
         <br>Lectotype: Illustration t. 773 in Gartenflora 22 (1873) (designated by Christenhusz & al., 2013).
@@ -348,10 +369,12 @@ object InfoTulips {
         <br><br><b><h5>Note.</b></h5> The species was described in 1873 from plants collected by famous Russian scientists Sewerzow (zoologist) and Fedtschenko (botanist) in the Karatau Mountains (present-time southern Kazakhstan). Firstly, Regel considered this tulip as a variation of the Altai tulip (Tulipa altaica var. karatavica, 1868), but later, in 1873, gave them the species rank. This species is the ornamental plant of the highest importance for selection. It is one of the most beautiful wild relatives hundreds of cultivars of garden tulips. In the international classification, varieties of this species are combined into a separate class of "Greig's Tulips".
 
 
-    """.trimIndent(), Html.FROM_HTML_MODE_COMPACT)
+    """.trimIndent(), Html.FROM_HTML_MODE_COMPACT
+    )
 
     @RequiresApi(Build.VERSION_CODES.N)
-    val tulips20Info = Html.fromHtml("""
+    val tulips20Info = Html.fromHtml(
+        """
         <center><b><h2>20 (2). Tulipa mogoltavica Popov & Vved.</h2></b></center>
         <br><br>&emsp;Opred. Rast. Sred. Azii 2: 318 (1971).
         <br>Type: [Tajikistan] Tian-Shan Occidentalis: ad declivia saxosa montium Mogoltau in angustiis fl. Schunluk, 22.04.1927, I. Granitov 483 (TASH!).
@@ -366,10 +389,12 @@ object InfoTulips {
         <br><br><b><h5>Note.</b></h5> All known records of this tulip in Uzbekistan are based on the herbarium collections of the XX Century. The taxonomical status of T. mogoltavica is questionable because the morphological differences between T. mogoltavica and T. greigii are not clear, but these taxa are more or less isolated geographically and plants of T. mogoltavica are smaller than T. greigii. Many authors (Hall, 1940; Wilford, 2006; Christenhusz & al. 2013, etc.), considered this tulip as a synonym of Tulipa greigii. However, Zonneveld (2009), based on the study of original materials from locus classicus (i.e. Mogoltau Range), showed the genetic differences between these two species. A survey of populations and further comparative studies of T. mogoltavica and T. greigii are strongly required.
 
 
-    """.trimIndent(), Html.FROM_HTML_MODE_COMPACT)
+    """.trimIndent(), Html.FROM_HTML_MODE_COMPACT
+    )
 
     @RequiresApi(Build.VERSION_CODES.N)
-    val tulips21Info = Html.fromHtml("""
+    val tulips21Info = Html.fromHtml(
+        """
         <center><b><h2>21 (3). Tulipa micheliana Hoog</h2></b></center>
         <br><br>&emsp;Gard. Chron. III, 31: 350 (1902)
         <br>Type: Lectotype (designated by Wilford, 2013): figure 120, Gard. Chron. III, 31: 353 (1902).
@@ -384,10 +409,12 @@ object InfoTulips {
         <br><br><b><h5>Note.</b></h5> The species was described in 1902 by Thomas Hoog on specimens collected in 1900 by German botanist Paul Sintenis near Ashkhabad (Turkmenistan). Wilford (2013) treated this tulip as Tulipa undulatifolia var. micheliana (Hoog) Wilford. According to J.J. de Groot’s communication, T. micheliana from the Kopet-Dag and Northern Iran have a lower amount of DNA than the plants from South-Western Pamir-Alay. It shows that under the name of T. micheliana may be a group of very similar species, and further comparative studies are required.
 
 
-    """.trimIndent(), Html.FROM_HTML_MODE_COMPACT)
+    """.trimIndent(), Html.FROM_HTML_MODE_COMPACT
+    )
 
     @RequiresApi(Build.VERSION_CODES.N)
-    val tulips22Info = Html.fromHtml("""
+    val tulips22Info = Html.fromHtml(
+        """
         <center><b><h2>22 (4). Tulipa vvedenskyi Botschantz.</h2></b></center>
         <br><br>&emsp;Bot. Mater. Gerb. Inst. Bot. Zool. Akad. Nauk Uzbeksk. S.S.R. 14: 3 (1954).
         <br>Type: [Uzbekistan] Grown in the Botanical garden of the Academy of Sciences of UzbekSSR from bulbs collected by Z.P. Botschantzeva in the valley of river Angren, ½ km below of the village Tjurk, 1950, Botschantzeva s.n. (TASH!).
@@ -403,10 +430,12 @@ object InfoTulips {
         <br>The species is represented mainly by red forms. Initially, I. Turakulov in Tajikistan, and then Tojibaev in Uzbekistan (both localities belong to Kurama ridge) discovered a yellow form of the species (fig. 41).
 
 
-    """.trimIndent(), Html.FROM_HTML_MODE_COMPACT)
+    """.trimIndent(), Html.FROM_HTML_MODE_COMPACT
+    )
 
     @RequiresApi(Build.VERSION_CODES.N)
-    val tulips23Info = Html.fromHtml("""
+    val tulips23Info = Html.fromHtml(
+        """
         <center><b><h2>23 (5). Tulipa butkovii Botschantz.</h2></b></center>
         <br><br>&emsp;Bot. Mater. Gerb. Inst. Bot. Zool. Akad. Nauk Uzbeksk. S.S.R. 16: 8 (1961).
         <br>Type: [Uzbekistan] Grown in the Botanical garden of the Academy of Sciences of UzbekSSR from bulbs collected by Z.P. Botschantzeva in 1959 on steep south-western slopes (almost screes) of the mountain Smaller Chimgan, Botschantzeva 3754 (TASH!).
@@ -420,10 +449,12 @@ object InfoTulips {
         <br><br><b><h5>Etymology. </b></h5>This species is named after Aleksandr Butkov (1911–1981), a well-known plant taxonomist and geobotanist, who worked at the Institute of Botany of the Academy of Sciences of Uzbekistan and collected this tulip from different areas of Chatkal Range in 1955–1956. The taxonomical status of T. butkovii is still uncertain. The main distinctive character of T. butkovii is red filaments. Van Raamsdonk & al. (1996) treated this species as synonym of T. albertii Regel. Zonneveld (2009), Christenhusz & al. (2013) and Everett (2013) restored T. butkovii as a separate species of sect. Vinistriatae (Raamsd.) Zonn.
 
 
-    """.trimIndent(), Html.FROM_HTML_MODE_COMPACT)
+    """.trimIndent(), Html.FROM_HTML_MODE_COMPACT
+    )
 
     @RequiresApi(Build.VERSION_CODES.N)
-    val tulips24Info = Html.fromHtml("""
+    val tulips24Info = Html.fromHtml(
+        """
         <center><b><h2>24 (1). Tulipa kaufmanniana Regel</h2></b></center>
         <br><br>&emsp;Gartenflora 26: 194, t. 906 figs 6–11 (1877).
         <br>Type: [Uzbekistan] In Turkestaniae montibus fluvium Tschirtschik adjacentibus, A. Regel (LE!).
@@ -438,10 +469,12 @@ object InfoTulips {
         <br><br><b><h5>Note.</b></h5> This tulip is the ornamental plant of the highest importance for selection. J. Rukšāns (2008, 2019) regarded plants from Kazakhstan as separated species Tulipa berkariensis distinguishing from T. kaufmanniana by a lower amount of DNA, spherical bulbs producing 1–2 long stolons bearing vegetative bulblets, and a number of leaves (mostly 2). According to J.J. de Groot’s communication, yellow-flowered tulips from the Uzbek part of the Ugam Range also belong to T. berkariensis.
 
 
-    """.trimIndent(), Html.FROM_HTML_MODE_COMPACT)
+    """.trimIndent(), Html.FROM_HTML_MODE_COMPACT
+    )
 
     @RequiresApi(Build.VERSION_CODES.N)
-    val tulips25Info = Html.fromHtml("""
+    val tulips25Info = Html.fromHtml(
+        """
         <center><b><h2>25 (2). Tulipa tschimganica Botschantz.</h2></b></center>
         <br><br>&emsp;Bot. Mater. Gerb. Inst. Bot. Zool. Akad. Nauk Uzbeksk.S.S.R. 16: 10 (1961).
         <br>Type: [Uzbekistan] Grown in the Botanical garden of the Academy of Sciences of UzbekSSR from bulbs collected by Z.P. Botschantzeva in 1959 in the gorge in piedmonts of Greater Chimgan, on fine earth among stones, Botschantzeva 99 (TASH!).
@@ -457,10 +490,12 @@ object InfoTulips {
         <br>T. tschimganica may be the result of hybridization between T. dubia and T. kaufmanniana in the wild. According to Phillips & Rix (1981) and Christenhusz & al. (2013), this taxon takes an intermediate position between T. dubia and T. kaufmanniana and can be considered as a natural hybrid. Before, at previous publications Tojibaev (2010) and Tojibaev & Beshko (2014) regarded it as T. kaufmanniana subsp. tschimganica. According to J.J. de Groot’s communication, T. tschimganica under conditions of cultivation differs with large bulbs, notable bigger than bulbs of T. kaufmanniana and T. dubia.
 
 
-    """.trimIndent(), Html.FROM_HTML_MODE_COMPACT)
+    """.trimIndent(), Html.FROM_HTML_MODE_COMPACT
+    )
 
     @RequiresApi(Build.VERSION_CODES.N)
-    val tulips26Info = Html.fromHtml("""
+    val tulips26Info = Html.fromHtml(
+        """
         <center><b><h2>26 (3). Tulipa dubia Vved.</h2></b></center>
         <br><br>&emsp;Byull. Sredne-Aziatsk. Gosud. Univ. 21: 148 (1935).
         <br>Type: Chotan ruch’ya Kash-ka-su, 10.VI.1909, Minkwitz 617 (LE!).
@@ -474,10 +509,12 @@ object InfoTulips {
         <br><br><b><h5>Note.</b></h5> Typically, the populations of T. dubia occur on higher altitudinal zone than Tulipa kaufmanniana and Tulipa tschimganica. However, in the valley Aksay (Greater Chimgan), all three species grow almost on the same elevations but occupy different habitats. The main character, distinguishing T. dubia from other species of sect. Spiranthera Vved. ex Zonn. & Veldk. is the shape of filaments.
 
 
-    """.trimIndent(), Html.FROM_HTML_MODE_COMPACT)
+    """.trimIndent(), Html.FROM_HTML_MODE_COMPACT
+    )
 
     @RequiresApi(Build.VERSION_CODES.N)
-    val tulips27Info = Html.fromHtml("""
+    val tulips27Info = Html.fromHtml(
+        """
         <center><b><h2>27 (4). Tulipa uzbekistanica Botschantz. & Scharipov</h2></b></center>
         <br><br>&emsp;Novosti Sist. Vyssh. Rast. 8: 109 (1971).
         <br>Type: Uzbekistan. Uzbekistania australis, promontoria ad meridiem a via Dechkananabad – Derbent, montes Kurukdagana, ad declive australe trajectus Tally, in argillis saliferis griseis, 19.05.1967, V. Botschantzev 134 (LE!).
@@ -492,10 +529,12 @@ object InfoTulips {
         <br><br><b><h5>Note.</b></h5> Tulipa uzbekistanica is the only species of sect. Spiranthera, which is distributed in Pamir-Alay, whereas all other representatives of this section are endemic to Western Tien Shan. The distance between habitats of T. uzbekistanica and other tulips of sect. Spiranthera is more than 700 km.
 
 
-    """.trimIndent(), Html.FROM_HTML_MODE_COMPACT)
+    """.trimIndent(), Html.FROM_HTML_MODE_COMPACT
+    )
 
     @RequiresApi(Build.VERSION_CODES.N)
-    val tulips28Info = Html.fromHtml("""
+    val tulips28Info = Html.fromHtml(
+        """
         <center><b><h2>28 (1). Tulipa sogdiana Bunge</h2></b></center>
         <br><br>&emsp;Beitr. Fl. Russl.: 338 (1852).
         <br>Type: [Uzbekistan] Inter Bukhara et Kermine, A. Lehmann s.n. (LE), isotypes K-000844627, P00730919, P00730920.
@@ -509,10 +548,12 @@ object InfoTulips {
         <br><br><b><h5>Etymology.</b></h5> This tulip is named after Sogdiana (also known as Sogd), an ancient historical region in Middle Asia that has been situated in the interfluve of the Oxus (Amudarya) and Yaksart (Syrdarya) rivers, and covered the valley of river Zeravschan with adjacent areas.
 
 
-    """.trimIndent(), Html.FROM_HTML_MODE_COMPACT)
+    """.trimIndent(), Html.FROM_HTML_MODE_COMPACT
+    )
 
     @RequiresApi(Build.VERSION_CODES.N)
-    val tulips29Info = Html.fromHtml("""
+    val tulips29Info = Html.fromHtml(
+        """
         <center><b><h2>29 (2). Tulipa biflora Pallas</h2></b></center>
         <br><br>&emsp;Reise Russ. Reich. 3, anhang: 727 (1776).
         <br>Type: [Russia] ‘Habitat ad Wolgam locis desertis maxime argillosis, “Deserta Caspica”, Fischer sn. (B-W-06559-010); syntypes are present in BM (000528948!) and M.
@@ -527,10 +568,12 @@ object InfoTulips {
         <br><br><b><h5>Note.</b></h5> Tulipa biflora is a very variable species with a wide range, differing greatly in size (Everett, 2013). In the understanding of the volume and geographical distribution of this species, we follow Vvedensky (1935) and Vvedensky & Kovalevskaja (1971) who regarded T. biflora s.s., while Christenhusz & al. (2013) treated T. sogdiana, T. buhseana, T. binutans, and several other species as synonyms of T. biflora. In Middle Asia, this tulip is widespread in the northern part of Middle Asian deserts, and does not occur in Kyzylkum and Karakum. Zonneveld (2009) reported that all accessions of T. biflora s.l. have a rather narrow range of variation in the nuclear DNA values, and differing mainly in the number and size of the flowers. But this author admitted the possibility of the presence of new, undiscovered species from the affinity of T. biflora in Middle Asia. Later, Yu.V. Perezhogin (2013) described two new species from northern Kazakhstan (T. auliekolica Perezhogin and T. turgaica Perezhogin). Everett (2013) reported the yellow form of this species from Afghanistan.
 
 
-    """.trimIndent(), Html.FROM_HTML_MODE_COMPACT)
+    """.trimIndent(), Html.FROM_HTML_MODE_COMPACT
+    )
 
     @RequiresApi(Build.VERSION_CODES.N)
-    val tulips30Info = Html.fromHtml("""
+    val tulips30Info = Html.fromHtml(
+        """
         <center><b><h2>30 (3). Tulipa buhseana Boiss.</h2></b></center>
         <br><br>&emsp;Diagn. Pl. Orient., ser. 2, 4: 98 (1859).
         <br>Type: [Iran] prope Yezd Persiae, Buhse s.n. (G).
@@ -545,10 +588,12 @@ object InfoTulips {
         <br><br><b><h5>Note.</b></h5> Christenhusz & al. (2013) treated T. buhseana as a synonym of T. biflora, but according to our observations and J.J. de Groot’s personal communication, this species is closely related to T. turkestanica. J.J. de Groot also reported that specimens from the Iranian desert growing ex-situ in his collection are tetraploid while the plants from piedmonts of Nuratau are diploid.
 
 
-    """.trimIndent(), Html.FROM_HTML_MODE_COMPACT)
+    """.trimIndent(), Html.FROM_HTML_MODE_COMPACT
+    )
 
     @RequiresApi(Build.VERSION_CODES.N)
-    val tulips31Info = Html.fromHtml("""
+    val tulips31Info = Html.fromHtml(
+        """
         <center><b><h2>31 (4). Tulipa turkestanica (Regel) Regel</h2></b></center>
         <br><br>&emsp;Trudy Imp. S.-Peterburgsk. Bot. Sada 3(2): 296 (1875).
         <br>Lectotype: [Uzbekistan] Chiwa, Korolkow & Krause sn (COI-00050870) (designated by Christenhusz & al., 2013).
@@ -563,10 +608,12 @@ object InfoTulips {
         <br><br><b><h5>Note.</b></h5> Wilford (2006) stated that Tulipa turkestanica does not grow in Tien Shan, while quite a few localities of this species are known in the Kazakh part of Western Tien Shan, on the ranges Syrdarya Karatau, Talas Alatau, Karakus, and Borolday (Kamelin, 1990; Everett, 2013; www.plantarium.ru). Diana Everett (2013:142) and several participants of the Plantarium Project (www.plantarium.ru) reported a yellow-flowered form of Tulipa turkestanica from Western Tien Shan. There are several specimens collected from the Mogoltau Range (South-western Tien Shan, Tajikistan) in TASH.
 
 
-    """.trimIndent(), Html.FROM_HTML_MODE_COMPACT)
+    """.trimIndent(), Html.FROM_HTML_MODE_COMPACT
+    )
 
     @RequiresApi(Build.VERSION_CODES.N)
-    val tulips32Info = Html.fromHtml("""
+    val tulips32Info = Html.fromHtml(
+        """
         <center><b><h2>32 (5). Tulipa bifloriformis Vved.</h2></b></center>
         <br><br>&emsp;Opred. Rast. Sred. Azii 2: 320 (1971).
         <br>Type: [Uzbekistan] Tian-Schan occidentalis, in collibus argillosis circa urb. Taschkent, 19.03.1923. M.G. Popov & A.I. Vvedensky 1036 (TASH!), isotypes: BM, H-1200916; K.
@@ -581,10 +628,12 @@ object InfoTulips {
         <br><br><b><h5>Note.</b></h5> Depending on the habitat conditions, plants can reach up to 25–30 cm tall. In favourable conditions, this tulip forms dense populations, especially on the slopes of Chimgan Mountains. This species often first occupies eroded slopes after a landslide and form thickets of vegetative individuals.
 
 
-    """.trimIndent(), Html.FROM_HTML_MODE_COMPACT)
+    """.trimIndent(), Html.FROM_HTML_MODE_COMPACT
+    )
 
     @RequiresApi(Build.VERSION_CODES.N)
-    val tulips33Info = Html.fromHtml("""
+    val tulips33Info = Html.fromHtml(
+        """
         <center><b><h2>33 (6). Tulipa dasystemon (Regel) Regel</h2></b></center>
         <br><br>&emsp;Trudy Imp. S.-Peterburgsk. Bot. Sada 6: 507 (1879).
         <br>Type: [Kazakhstan] In montibus prope Wernoje ad fluvium Almatinka, A. Regel (LE!), isotype PRC-454341.
@@ -599,10 +648,12 @@ object InfoTulips {
         <br><br><b><h5>Note. </b></h5>Tulipa dasystemon has long and narrow style, and Regel originally placed it in the section Orithyia on the grounds of this feature.
 
 
-    """.trimIndent(), Html.FROM_HTML_MODE_COMPACT)
+    """.trimIndent(), Html.FROM_HTML_MODE_COMPACT
+    )
 
     @RequiresApi(Build.VERSION_CODES.N)
-    val tulips34Info = Html.fromHtml("""
+    val tulips34Info = Html.fromHtml(
+        """
         <center><b><h2>34 (7). Tulipa dasystemonoides Vved.</h2></b></center>
         <br><br>&emsp;Byull. Sredne-Aziatsk. Gosud. Univ. 21: 147 (1935).
         <br>Type: [Kazakhsan] Altai Talac, 11.06.1909, Minkwitz 1365 (LE!).
@@ -617,10 +668,12 @@ object InfoTulips {
         <br><br><b><h5>Note.</b></h5> Van Raamsdonk & al. (1997) and Christenhusz & al. (2013) consider the species as synonym to T. dasystemon. According to Zonneveld (2009), these two species have different amount of nuclear DNA, 57.7 pg for T. dasystemoniodes and 51.5 pg for T. dasystemon. Morphologically, these species differ well from each other with bulb tunics (Vvedensky, 1935; Hall, 1940; Botschantzeva, 1982). T. dasystemonoides sometimes has two flowers per stem, while T. dasystemon always has a single flower (Vvedensky, 1935; Hall 1940; Botschantzeva, 1982).
 
 
-    """.trimIndent(), Html.FROM_HTML_MODE_COMPACT)
+    """.trimIndent(), Html.FROM_HTML_MODE_COMPACT
+    )
 
     @RequiresApi(Build.VERSION_CODES.N)
-    val tulips35Info = Html.fromHtml("""
+    val tulips35Info = Html.fromHtml(
+        """
         <center><b><h2>35 (8). Tulipa orithyioides Vved.</h2></b></center>
         <br><br>&emsp;Byull. SredneAziatsk. Gosud. Univ. 21: 150 (1935).
         <br>Type: [Uzbekistan] Tschulbair, 30.06.1929, Vvedensky 423 (TASH!).
@@ -635,11 +688,8 @@ object InfoTulips {
         <br><br><b><h5>Note.</b></h5> Richard Wilford (2006) and Diana Everett (2013) reported that this species occurs on the Zeravshan Range, but these data are not confirmed.
 
 
-    """.trimIndent(), Html.FROM_HTML_MODE_COMPACT)
-
-
-
-
+    """.trimIndent(), Html.FROM_HTML_MODE_COMPACT
+    )
 
 
     @RequiresApi(Build.VERSION_CODES.N)
@@ -649,7 +699,8 @@ object InfoTulips {
         <br><br>This application contains detailed information on 34 species of tulips currently found in the flora of Uzbekistan. In this case, scientific name, initial description, nomenclature type, external morphological description, flowering and fruiting period, ecology, general distribution, distribution in the botanical and geographical regions of Uzbekistan and GIS map, digital image, rarity status, etymology and, a brief explanation, if necessary are provided for each Tulipa species.
         <br><br>The app will be a useful resource for future local and international scientific research on tulips. In addition, this application is a source of detailed information about the tulips of Uzbekistan for plant-loving tourists, which contributes to the development of domestic and foreign tourism in the country. It also increases the awareness of the population of Uzbekistan about tulips and the need for their protection.
         <br><br>This application is the first electronic product for tulips in Uzbekistan. It is created within the framework of the State research project “Taxonomic analysis of polymorphic plant families of the flora of Uzbekistan” (FZ-20200929321) and the State program for  2021-2025 “Grid mapping of the flora of Uzbekistan” of the Institute of Botany of the Academy of Sciences of the Republic of Uzbekistan.
-    """.trimIndent(), Html.FROM_HTML_MODE_COMPACT)
+    """.trimIndent(), Html.FROM_HTML_MODE_COMPACT
+    )
 
 
 }
